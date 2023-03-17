@@ -27,18 +27,18 @@ var UIGuide = function() {
             $headerHtml += '<div class="switch">';
             $headerHtml += '<span class="bar"></span>';
             $headerHtml += '<ul>';
-            $headerHtml += '<li><a href="/ocare/guide/html/worksheet.html" target="_blank">Worksheet</a></li>';
-            $headerHtml += '<li><a href="/ocare/guide/html/guide.html" target="_blank">Guide</a></li>';
-            $headerHtml += '<li><a href="/ocare/guide/html/document.html" target="_blank">Document</a></li>';
+            $headerHtml += '<li><a href="/front/guide/html/worksheet.html" target="_blank">Worksheet</a></li>';
+            $headerHtml += '<li><a href="/front/guide/html/guide.html" target="_blank">Guide</a></li>';
+            $headerHtml += '<li><a href="/front/guide/html/document.html" target="_blank">Document</a></li>';
             $headerHtml += '</ul>';
             $headerHtml += '</div>';
             $headerHtml += '<div class="g_project">';
             $headerHtml += '<button type="button" class="current" title="프로젝트 목록보기">선택</button>';
             $headerHtml += '<ul class="g_list">';
             if (location.host == 'zfront.kbstar.com' || location.host == 'zobiz.kbstar.com' || location.host == 'ztadmin.kbstar.com' || location.host == 'zmnbank.kbstar.com') {
-                $headerHtml += '<li><a href="https://zfront.kbstar.com/ocare/guide/html/worksheet.html" target="_blank">App</a></li>';
+                $headerHtml += '<li><a href="https://zfront.kbstar.com/front/guide/html/worksheet.html" target="_blank">App</a></li>';
             } else {
-                $headerHtml += '<li><a href="/ocare/guide/html/worksheet.html" target="_blank">App</a></li>';
+                $headerHtml += '<li><a href="/front/guide/html/worksheet.html" target="_blank">App</a></li>';
             }
             if (location.host == 'zobiz.kbstar.com' || location.host == 'zfront.kbstar.com' || location.host == 'ztadmin.kbstar.com' || location.host == 'zmnbank.kbstar.com') {
                 $headerHtml += '<li><a href="https://zobiz.kbstar.com/obiz/publishing_2022/guide/html/worksheet.html" target="_blank">PC</a></li>';

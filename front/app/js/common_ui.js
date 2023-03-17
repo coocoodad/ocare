@@ -3733,7 +3733,7 @@ if (!UICommon) {
                 renderer: 'svg',
                 loop: true,
                 autoplay: true,
-                path: '/ocare/app/js/json/loadingAni.json'
+                path: '/front/app/js/json/loadingAni.json'
             });
         }
     });
