@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+:root {
+    --vh: 1vh;
+    --primary-color: #fe7d65;
+    --primary-color-rgb: 254, 125, 101;
+    --primary-disabled-color: #fbe9e7;
+    --primary-disabled-bg-color: #ffcbc1;
+    --base-txt-color: #606060;
+    --strong-txt-color: #212121;
+    --strong-txt-color2: #424242;
+    --gray-txt-color: #979797;
+    --alert-txt-color: #e43333;
+    --placeholder-txt-color: #b9c1c9;
+    --line-color: #ebebeb;
+    --disabled-color: #b0b0b0;
+    --disabled-bg-color: #dedede;
+    --base-padding: 2.4rem;
+    --outer-padding: -2.4rem;
+    --loading-svg-offset: 187;
+    --loading-svg-duration: 1.4s;
+  }
+
+[data-circle-box].type1 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    font-size: 0;
+  }
+  [data-circle-box].type1 svg {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+  }
+  [data-circle-box].type1 .circle-bg {
+    stroke: var(--line-color);
+    fill: none;
+    stroke-width: 1;
+  }
+  [data-circle-box].type1 .circle {
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: 1;
+    -webkit-animation: progress 1s ease-out both;
+    animation: progress 1s ease-out both;
+  }
+  [data-circle-box].type2 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  [data-circle-box].type2 svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-animation: progressTy2 1s ease-out both;
+    animation: progressTy2 1s ease-out both;
+  }
+  [data-circle-box].type2 .circle-bg {
+    stroke: var(--line-color);
+    fill: none;
+  }
+  [data-circle-box].type2 .circle {
+    fill: none;
+    opacity: 1;
+    -webkit-animation: progress 1s ease-out both;
+    animation: progress 1s ease-out both;
+  }
+  @-webkit-keyframes progress {
+    from {
+      opacity: 0;
+      stroke-dasharray: 0 100;
+    }
+  }
+  @keyframes progress {
+    from {
+      opacity: 0;
+      stroke-dasharray: 0 100;
+    }
+  }
+  @-webkit-keyframes progressTy2 {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes progressTy2 {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+
+  .counter {position:relative;display:-webkit-box;display:flex;overflow:hidden;-webkit-box-align:center;align-items:center;height:4rem;font-size:4rem}
+  .counter > span {z-index:1;display:-webkit-box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;height:100%;transition:transform 3s ease;transform:translateY(0);line-height:1}
+  .counter > span span {-webkit-box-flex:0;flex:0 0 100%;height:100%}
