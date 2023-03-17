@@ -4,7 +4,7 @@
   },
   {
     "id": "MAB01-0000p01C",
-    "url": "../../front/html/MAB/",
+    "url": "../../ocare/html/MAB/",
     "depth2": "이벤트 팝업",
     "name": "이벤트 팝업",
     "worker": "이래영",
@@ -16,7 +16,7 @@
   },
   {
     "id": "MAE01-0000001C",
-    "url": "../../front/html/MAE/",
+    "url": "../../ocare/html/MAE/",
     "depth2": "공지사항",
     "name": "공지사항 목록",
     "worker": "이래영",

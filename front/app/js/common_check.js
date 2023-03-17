@@ -9,9 +9,9 @@ if(!window.SPA) {
         function init() {
             //css
             [
-                {src : "/front/app/css/common.css", description: "공통 요소별 스타일"},
-                // {src : "/front/app/css/common_mix.css", description: "공통 요소별 스타일"},
-                {src : "/front/app/css/style.css", description: "운영 공통 적용 스타일"}
+                {src : "/ocare/app/css/common.css", description: "공통 요소별 스타일"},
+                // {src : "/ocare/app/css/common_mix.css", description: "공통 요소별 스타일"},
+                {src : "/ocare/app/css/style.css", description: "운영 공통 적용 스타일"}
             ].forEach(function(css) {
                 let cssFile = document.createElement('link');
                 cssFile.rel = "stylesheet";
@@ -31,10 +31,10 @@ if(!window.SPA) {
          * jQuery 먼저 삽입되어야 함
          */
         async function inportJs() {
-                await promiseImportJS("/front/app/js/library/jquery-3.3.1-min.js").catch('"/front/app/js/library/jquery-3.3.1-min.js" 파일 include 실패!!');
-                await promiseImportJS("/front/app/js/library/jquery-ui.min.js").catch('"/front/app/js/library/jquery-ui.min.js" 파일 include 실패!!');
-                await promiseImportJS("/front/app/js/common_ui.js").catch('"/front/app/js/common_ui.js" 파일 include 실패!!');
-                await promiseImportJS("/front/app/js/publish.js").catch('"/front/app/js/publish.js" 파일 include 실패!!');
+                await promiseImportJS("/ocare/app/js/library/jquery-3.3.1-min.js").catch('"/ocare/app/js/library/jquery-3.3.1-min.js" 파일 include 실패!!');
+                await promiseImportJS("/ocare/app/js/library/jquery-ui.min.js").catch('"/ocare/app/js/library/jquery-ui.min.js" 파일 include 실패!!');
+                await promiseImportJS("/ocare/app/js/common_ui.js").catch('"/ocare/app/js/common_ui.js" 파일 include 실패!!');
+                await promiseImportJS("/ocare/app/js/publish.js").catch('"/ocare/app/js/publish.js" 파일 include 실패!!');
 
                 if(window.UICommon) {
                     window.UICommon.init();
