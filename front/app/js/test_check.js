@@ -1,9 +1,9 @@
 head ='';
-head += '<link rel="stylesheet" data-description="공통 요소별 스타일" href="/msbiz/app/css/common.css">';
-head += '<link rel="stylesheet" data-description="운영 공통 적용 스타일" href="/msbiz/app/css/style.css">';
-head += '<script src="/msbiz/app/js/library/jquery-3.3.1-min.js"></script>';
-head += '<script src="/msbiz/app/js/library/jquery-ui.min.js"></script>';
-head += '<script src="/msbiz/app/js/common_ui.js"></script>';
+head += '<link rel="stylesheet" data-description="공통 요소별 스타일" href="/front/app/css/common.css">';
+head += '<link rel="stylesheet" data-description="운영 공통 적용 스타일" href="/front/app/css/style.css">';
+head += '<script src="/front/app/js/library/jquery-3.3.1-min.js"></script>';
+head += '<script src="/front/app/js/library/jquery-ui.min.js"></script>';
+head += '<script src="/front/app/js/common_ui.js"></script>';
 if(!window.SPA) {
     document.write(head);
     setTimeout(function(){
@@ -20,9 +20,9 @@ if(!window.SPA) {
 //         function init() {
 //             //css
 //             [
-//                 {src : "/msbiz/app/css/common.css", description: "공통 요소별 스타일"},
-//                 // {src : "/msbiz/app/css/common_mix.css", description: "공통 요소별 스타일"},
-//                 {src : "/msbiz/app/css/style.css", description: "운영 공통 적용 스타일"}
+//                 {src : "/front/app/css/common.css", description: "공통 요소별 스타일"},
+//                 // {src : "/front/app/css/common_mix.css", description: "공통 요소별 스타일"},
+//                 {src : "/front/app/css/style.css", description: "운영 공통 적용 스타일"}
 //             ].forEach(function(css) {
 //                 let cssFile = document.createElement('link');
 //                 cssFile.rel = "stylesheet";
@@ -42,10 +42,10 @@ if(!window.SPA) {
 //          * jQuery 먼저 삽입되어야 함
 //          */
 //         async function inportJs() {
-//                 await promiseImportJS("/msbiz/app/js/library/jquery-3.3.1-min.js").catch('"/msbiz/app/js/library/jquery-3.3.1-min.js" 파일 include 실패!!');
-//                 await promiseImportJS("/msbiz/app/js/library/jquery-ui.min.js").catch('"/msbiz/app/js/library/jquery-ui.min.js" 파일 include 실패!!');
-//                 await promiseImportJS("/msbiz/app/js/common_ui.js").catch('"/msbiz/app/js/common_ui.js" 파일 include 실패!!');
-//                 await promiseImportJS("/msbiz/app/js/publish.js").catch('"/msbiz/app/js/publish.js" 파일 include 실패!!');
+//                 await promiseImportJS("/front/app/js/library/jquery-3.3.1-min.js").catch('"/front/app/js/library/jquery-3.3.1-min.js" 파일 include 실패!!');
+//                 await promiseImportJS("/front/app/js/library/jquery-ui.min.js").catch('"/front/app/js/library/jquery-ui.min.js" 파일 include 실패!!');
+//                 await promiseImportJS("/front/app/js/common_ui.js").catch('"/front/app/js/common_ui.js" 파일 include 실패!!');
+//                 await promiseImportJS("/front/app/js/publish.js").catch('"/front/app/js/publish.js" 파일 include 실패!!');
 
 //                 if(window.UICommon) {
 //                     window.UICommon.init();

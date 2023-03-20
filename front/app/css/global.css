@@ -81,7 +81,7 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 .g_main .works_link li .link{padding:3rem 3.5rem 2rem 5.6rem; min-height:8rem;position: relative;font-size: 1.6rem;font-weight: 600;}
 .g_main .works_link li:first-child .link{padding-top:3rem; padding-bottom:2rem;}
 .g_main .works_link li:first-child .link:after {margin-top:0;}
-.g_main .works_link li .link::before{content: '';position: absolute;left:0;top:2rem;width:4rem;height:4rem;background: url(/msbiz/app/img/global/spr_main_link.png) no-repeat;background-size: 25rem;}
+.g_main .works_link li .link::before{content: '';position: absolute;left:0;top:2rem;width:4rem;height:4rem;background: url(/front/app/img/global/spr_main_link.png) no-repeat;background-size: 25rem;}
 .g_main .works_link li:nth-child(1) .link::before{background-position: 0 0;}
 .g_main .works_link li:nth-child(2) .link::before{background-position: -4rem 0;}
 .g_main .works_link li:nth-child(3) .link::before{background-position: -8rem 0;}
@@ -101,7 +101,7 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 .g_main .exchange_info .btn_list_btm .btn{font-size: 1.4rem;}
 
 .g_main .customer_center{position:relative;margin:4.8rem 2.4rem 0;padding:1.6rem 1.6rem 1.3rem 6.8rem;border-radius:2px;color: var(--fc_03, #484b51); background:var(--bdc_01, #f7f7f8);}
-.g_main .customer_center::before{content: '';position:absolute;left:1.6rem;top:1.6rem;width:4rem;height:4rem; background: url('/msbiz/app/img/global/spr_main_link.png') no-repeat 0 -4rem;background-size:25rem auto;}
+.g_main .customer_center::before{content: '';position:absolute;left:1.6rem;top:1.6rem;width:4rem;height:4rem; background: url('/front/app/img/global/spr_main_link.png') no-repeat 0 -4rem;background-size:25rem auto;}
 .g_main .customer_center .center_num{display:block;font-size: 1.5rem; font-weight:500}
 .g_main .customer_center .operating_time{font-size: 1.3rem;}
 
@@ -116,9 +116,9 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 
 #global_header {width:100%; height:4.8rem; z-index:100}
 #global_header .inner {display:flex; justify-content:space-between; align-items:flex-end; position:relative; height:100%; margin:0 2.4rem; padding-bottom:1.2rem}
-#global_header .page_logo {width:17.5rem; height:1.9rem; background:url(/msbiz/app/img/common/sp_header.png) no-repeat  -0.7rem -4.95rem; background-size:37rem auto}
+#global_header .page_logo {width:17.5rem; height:1.9rem; background:url(/front/app/img/common/sp_header.png) no-repeat  -0.7rem -4.95rem; background-size:37rem auto}
 #global_header button.btn_all_menu {position:absolute; right:-1rem; bottom:.4rem; width:4.2rem; height:3.8rem}
-#global_header button.btn_all_menu:before {content:''; display:block; width:2.2rem; height:1.8rem; margin:auto; background:url(/msbiz/app/img/common/spr_ico_24x.png) no-repeat -2.05rem -.15rem; background-size: 22rem auto}
+#global_header button.btn_all_menu:before {content:''; display:block; width:2.2rem; height:1.8rem; margin:auto; background:url(/front/app/img/common/spr_ico_24x.png) no-repeat -2.05rem -.15rem; background-size: 22rem auto}
 
 .global_menu .log_btn {text-align:right}
 .global_menu .log_btn .underline {text-decoration:none; border:.1rem solid #dde1e4; border-radius:12.5rem; -webkit-border-radius:12.5rem; -moz-border-radius:12.5rem; -ms-border-radius:12.5rem; -o-border-radius:12.5rem; padding:.2rem 1rem .3rem; font-size:1.3rem}
@@ -130,7 +130,7 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 .global_menu .icon_link_sec a {font-family:'roboto' !important;}
 .global_menu .icon_link_sec .icon_link {width:10.5rem; height:9.2rem; border:.1rem solid #dde1e4; border-radius:.4rem; -webkit-border-radius:.4rem; -moz-border-radius:.4rem; -ms-border-radius:.4rem; -o-border-radius:.4rem}
 .global_menu .icon_link_sec .icon_link a {display:flex; flex-direction:column; align-items:center; padding:2rem 0; width:100%; height:100%}
-.global_menu .icon_link_sec .icon_link .icon_lang {display:inline-block; width:2.4rem; height:2.5rem; background:url(/msbiz/app/img/common/spr_ico_20x.png) no-repeat;     background-size:27rem; background-position:-19.34rem -13rem}
+.global_menu .icon_link_sec .icon_link .icon_lang {display:inline-block; width:2.4rem; height:2.5rem; background:url(/front/app/img/common/spr_ico_20x.png) no-repeat;     background-size:27rem; background-position:-19.34rem -13rem}
 .global_menu .icon_link_sec .icon_link .p {margin-top:.7rem}
 .global_menu .icon_link_sec .list_link {flex:1; margin-left:2rem}
 .global_menu .icon_link_sec .list_link li:first-child {border-top:1px solid #ebeef0}
@@ -205,9 +205,9 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 .txt.fc_gray2 em{color: var(--fc_03, #484b51) !important;}
 
 /* 이체확인증에 하단 영문로고  */
-.logo_inner_en { width:20.5rem; height:3.4rem; margin:0 auto; background:url(/msbiz/app/img/global/img_irp_kbseal_en.png) no-repeat; background-size:100% auto; }
+.logo_inner_en { width:20.5rem; height:3.4rem; margin:0 auto; background:url(/front/app/img/global/img_irp_kbseal_en.png) no-repeat; background-size:100% auto; }
 /* 통장사본조회 영문로고 */
-.in_acc_copy_wrap .acc_seal_en {min-height:2.9rem; margin-top:2rem; background:url(/msbiz/app/img/global/img_irp_kbseal_en.png) no-repeat center right; background-size:auto 2.9rem;}
+.in_acc_copy_wrap .acc_seal_en {min-height:2.9rem; margin-top:2rem; background:url(/front/app/img/global/img_irp_kbseal_en.png) no-repeat center right; background-size:auto 2.9rem;}
 
 /* 탭변경 클래스 추가 */
 .tab_wrap.g_m0 .tab_list{margin: 0 !important; padding: 0 !important;}
@@ -283,7 +283,7 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 
 .list_item_box .btn_add {position:relative; float:left; border:none; padding:0; border-radius:0;}
 .list_item_box .btn_add button {position:relative; width:4rem; height:4rem; border:1px solid var(--fc_07, #c6cbd0); border-radius:100%; background:var(--fc_10, #f7f7f8); text-align:center;}
-.list_item_box .btn_add button:before {display:inline-block; content:''; width: 2rem; height: 2rem; margin-top:.4rem; background-image: url(/msbiz/app/img/common/spr_ico_20x.png); background-size: 25rem auto; background-position:-6rem -16rem;}
+.list_item_box .btn_add button:before {display:inline-block; content:''; width: 2rem; height: 2rem; margin-top:.4rem; background-image: url(/front/app/img/common/spr_ico_20x.png); background-size: 25rem auto; background-position:-6rem -16rem;}
 
 .list_item_box.modi .item_area.active button {border-color:var(--fc_07, #c6cbd0); background-color:var(--fc_11, #fff); font-weight:400;}
 .list_item_box.modi .item_area.item_add button {padding:0 4.2rem 0 2.2rem;}
@@ -333,7 +333,7 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 /* .main_account.ht2{padding-top:24.6rem}
 .main_account.ht2 .main_account_info{height:24.6rem} 221031*/
 .main_account_info .main_account_set{display:block;position:relative;margin-top:4.3rem;text-align:center}
-.main_account_info .main_account_set::before{content:'';display:block;width:4.8rem;height:4.8rem;margin:0 auto 3.0rem;width:4.8rem;height:4.8rem;background:url(/msbiz/app/img/main/spr_login_main.png) -15.0rem 0 no-repeat;background-size:25.0rem 64.9rem}
+.main_account_info .main_account_set::before{content:'';display:block;width:4.8rem;height:4.8rem;margin:0 auto 3.0rem;width:4.8rem;height:4.8rem;background:url(/front/app/img/main/spr_login_main.png) -15.0rem 0 no-repeat;background-size:25.0rem 64.9rem}
 .main_account_head{display:block;position:relative;padding:0 0 0 4.0rem;text-align:left}
 .main_account_head [class^=icon_bank_]{position:absolute;top:-.1rem;left:0}
 .main_account_head .acc_name{display:block;font-size:1.4rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;-moz-binding:url(ellipsis.xml#ellipsis)}
@@ -342,7 +342,7 @@ textarea::-webkit-input-placeholder, textarea::placeholder{font-family:-apple-sy
 .main_account_alert_set.focus{border-color:#8c949e}
 .main_account_alert_set input[type=checkbox] + label{position:absolute;top:50%;left:50%;width:2.6rem;height:2.6rem;margin:-1.4rem 0 0 -1.3rem}
 .main_account_alert_set input[type=checkbox] + label::before, 
-.main_account_alert_set input[type=checkbox] + label::after{content:'';position:absolute;top:0;left:0;width:2.6rem;height:2.6rem;background:#fff url(/msbiz/app/img/main/spr_login_main.png) 0 0 no-repeat;background-size:25.0rem 64.9rem;border-radius:100%;transition:.5s}
+.main_account_alert_set input[type=checkbox] + label::after{content:'';position:absolute;top:0;left:0;width:2.6rem;height:2.6rem;background:#fff url(/front/app/img/main/spr_login_main.png) 0 0 no-repeat;background-size:25.0rem 64.9rem;border-radius:100%;transition:.5s}
 .main_account_alert_set input[type=checkbox] + label::before{background-position:-10.4rem 0;transform:rotateY(0deg) scale(1);z-index:2;opacity:1}
 .main_account_alert_set input[type=checkbox] + label::after{background-position:-7.8rem 0;transform:rotateY(180deg) scale(.7);z-index:0;opacity:0}
 .main_account_alert_set input[type=checkbox]:checked + label::before{transform:rotateY(180deg) scale(.7);z-index:0;opacity:0}

@@ -3,7 +3,7 @@
 /*** customer_hcw.css ***/
 .cs_tel_wrap{display: flex;justify-content: space-between;}
 .cs_tel_wrap > div{ position:relative; width: calc(50% - .4rem); padding:6rem 0 1.1rem; border:1px solid var(--fc_08, #dde1e4); border-radius: .2rem; text-align: center;}
-.cs_tel_wrap > div::before{content: '';position:absolute;left:50%;top:1.6rem;margin-left:-2.3rem;width: 4rem;height: 4rem;background:url(/msbiz/app/img/customer/ico_tell_dmfn.png) no-repeat left top;background-size:8rem auto;}
+.cs_tel_wrap > div::before{content: '';position:absolute;left:50%;top:1.6rem;margin-left:-2.3rem;width: 4rem;height: 4rem;background:url(/front/app/img/customer/ico_tell_dmfn.png) no-repeat left top;background-size:8rem auto;}
 .cs_tel_wrap .foreign::before{background-position: -4rem top;}
 .cs_tel_wrap .type{margin-bottom:.8rem;font-size: 1.8rem;font-weight: 600;}
 .cs_tel_wrap .foreign .type{margin-bottom: 1.6rem;}
@@ -11,7 +11,7 @@
 .acc_list.cs_tel{border-top: 1px solid var(--bdc_01, #ebeef0);}
 .acc_list.cs_tel li{padding: 0;}
 .acc_list.cs_tel li a{padding:2.8rem 2.5rem 2rem 5.6rem;z-index: 1;}
-.acc_list.cs_tel li a::before{content:''; position: absolute; width:4rem;height:4rem; top:2rem; left:0; background: url(/msbiz/app/img/customer/ico_cs_tel.png) no-repeat; background-size:25rem auto;}
+.acc_list.cs_tel li a::before{content:''; position: absolute; width:4rem;height:4rem; top:2rem; left:0; background: url(/front/app/img/customer/ico_cs_tel.png) no-repeat; background-size:25rem auto;}
 .acc_list.cs_tel .menu1 a::before{background-position:0 0;}
 .acc_list.cs_tel .menu2 a::before{background-position:-4rem 0;}
 .acc_list.cs_tel .menu3 a::before{background-position:-8rem 0;}
@@ -65,7 +65,7 @@
 
 .list_data.color_data > li .key{background: #f7f7f8;border-right: 1px solid #ebeef0;}
 
-.counsel_top{background: url(/msbiz/app/img/customer/counsel_top_banner.jpg) no-repeat center bottom / 32.7rem auto;height: 18rem;}
+.counsel_top{background: url(/front/app/img/customer/counsel_top_banner.jpg) no-repeat center bottom / 32.7rem auto;height: 18rem;}
 
 .plhd_bk input::-webkit-input-placeholder, .plhd_bk input::placeholder{color: var(--fc_02, #26282c);-webkit-text-fill-color: var(--fc_02, #26282c);}
 

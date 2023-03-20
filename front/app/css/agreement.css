@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url("/msbiz/app/css/library/swiper.min.css");
+@import url("/front/app/css/library/swiper.min.css");
 
 html {font-size:62.5%;}
 input,select,textarea,button {border:0; border-radius:0; -webkit-appearance:none; appearance:none;}
@@ -409,7 +409,7 @@ table {table-layout:fixed;}
 .viewer_agree .viewer_header.open{height:15.7rem;}
 .viewer_agree .viewer_header .vw_dep1 {position:relative; z-index:5; padding:2rem 10.2rem 2rem 2.4rem; background-color:#3b3d41; color:#fff; font-size:1.6rem; font-weight:normal;}
 .viewer_agree .viewer_header .btn_vw_sch, .viewer_agree .viewer_header .btn_vw_menu {position:absolute; top:.9rem; width:4.4rem; height:4.4rem; z-index:10;}
-.viewer_agree .viewer_header .btn_vw_sch::after, .viewer_agree .viewer_header .btn_vw_menu::after {content:''; position:absolute; top:50%; top:50%; width:2.4rem; height:2.4rem; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); background:url(/msbiz/app/img/common/spr_ico_24x.png); background-size:25rem auto;}
+.viewer_agree .viewer_header .btn_vw_sch::after, .viewer_agree .viewer_header .btn_vw_menu::after {content:''; position:absolute; top:50%; top:50%; width:2.4rem; height:2.4rem; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); background:url(/front/app/img/common/spr_ico_24x.png); background-size:25rem auto;}
 .viewer_agree .viewer_header .btn_vw_sch {right:5.8rem;}
 .viewer_agree .viewer_header .btn_vw_menu {right:1.4rem;}
 .viewer_agree .viewer_header .btn_vw_sch::after {background-position:-14.4rem -12rem;}

@@ -99,19 +99,19 @@
 /* oneStop - 상품 안내 icon */
 .icon_area {display:flex; justify-content:space-around; margin-top:3.2rem;}
 .icon_area .icon_cont {display:flex; flex-direction:column; align-items:center;}
-.icon_area .icon_cont .ico_bank {display:inline-block; width:4rem; height:4rem; background:url(/msbiz/app/img/products/ico_spr_onestop.png) no-repeat; background-size:20rem auto; background-position:0 0;}
+.icon_area .icon_cont .ico_bank {display:inline-block; width:4rem; height:4rem; background:url(/front/app/img/products/ico_spr_onestop.png) no-repeat; background-size:20rem auto; background-position:0 0;}
 .icon_area .icon_cont .ico_bank.deposit {background-position:0 0;}
 .icon_area .icon_cont .ico_bank.loan {background-position:-4rem 0;}
 .icon_area .icon_cont .ico_bank.fund {background-position:-8rem 0;}
 .icon_area .icon_cont span {margin-top:1.2rem; text-align:center; font-size:1.4rem;}
 
 /* 백그라운드 이미지 */
-.ban_visual .ban_motp_regi {background:url(/msbiz/app/img/banking_manage/visual_ban_motp_regi.png) no-repeat;}
-.ban_visual .ban_motp_info {background:url(/msbiz/app/img/banking_manage/visual_ban_motp_info.png) no-repeat;}
-.ban_visual .ban_motp_sn {background:url(/msbiz/app/img/banking_manage/visual_ban_motp_sn.png) no-repeat;}
-.ban_visual .pop_ban_motp_sn {background:url(/msbiz/app/img/banking_manage/visual_pop_ban_motp_sn.png) no-repeat;}
-.ban_visual .ban_cheque {background:url(/msbiz/app/img/banking_manage/visual_ban_cheque.png) no-repeat;}
-.ban_visual .ban_unlike_motp {background:url(/msbiz/app/img/banking_manage/visual_ban_unlike_motp.jpg) no-repeat;}
+.ban_visual .ban_motp_regi {background:url(/front/app/img/banking_manage/visual_ban_motp_regi.png) no-repeat;}
+.ban_visual .ban_motp_info {background:url(/front/app/img/banking_manage/visual_ban_motp_info.png) no-repeat;}
+.ban_visual .ban_motp_sn {background:url(/front/app/img/banking_manage/visual_ban_motp_sn.png) no-repeat;}
+.ban_visual .pop_ban_motp_sn {background:url(/front/app/img/banking_manage/visual_pop_ban_motp_sn.png) no-repeat;}
+.ban_visual .ban_cheque {background:url(/front/app/img/banking_manage/visual_ban_cheque.png) no-repeat;}
+.ban_visual .ban_unlike_motp {background:url(/front/app/img/banking_manage/visual_ban_unlike_motp.jpg) no-repeat;}
 
 .img_area.ban_visual > * {margin:0 auto; width:26.5rem; height:13.6rem; background-size:100%;}
 .img_area.ban_visual + p {margin-top:2rem;}
@@ -158,7 +158,7 @@
 
 /*** 기타 ***/
 /* 승인/결제>결제상세 */
-.list.icon.noline.prepare li::before {content:''; display:block; width:4rem; height:4rem; background:url(/msbiz/app/img/banking_manage/spr_ico_prepare.png) no-repeat; background-size:25rem auto;}
+.list.icon.noline.prepare li::before {content:''; display:block; width:4rem; height:4rem; background:url(/front/app/img/banking_manage/spr_ico_prepare.png) no-repeat; background-size:25rem auto;}
 .list.icon.noline.prepare li:nth-child(1)::before {background-position:0 0;}
 .list.icon.noline.prepare li:nth-child(2)::before {background-position:-4.5rem 0;}
 .list.icon.noline.prepare li:nth-child(3)::before {background-position:-9rem 0;}

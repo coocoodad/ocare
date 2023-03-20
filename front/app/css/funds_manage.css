@@ -72,7 +72,7 @@ strong.normal + .p {margin-top:.6rem;}
 /* [신규기관등록] 인증방식선택 */
 .h2 + .list_link.fu_certify li:first-child > a {padding-top: 2rem;}
 .list_link.fu_certify li .link {position:relative; display:flex; align-items: center;}
-.list_link.fu_certify li .link::before{ content: ''; display: block; width: 4rem; height: 4rem; margin-right: 1.6rem; background: url(/msbiz/app/img/funds_manage/ico_fu_certification80.png) no-repeat 0 0 / auto 4rem; }
+.list_link.fu_certify li .link::before{ content: ''; display: block; width: 4rem; height: 4rem; margin-right: 1.6rem; background: url(/front/app/img/funds_manage/ico_fu_certification80.png) no-repeat 0 0 / auto 4rem; }
 .fu_certify li .link > .p {flex:1;}
 .fu_certify li .link.ico_40_certify_bank::before {background-position: -4rem 0;}
 .fu_certify li .link.ico_40_certify_id::before {background-position: -8rem 0;}
@@ -84,7 +84,7 @@ strong.normal + .p {margin-top:.6rem;}
 .list_comp.type_icon > li .depth.sm li {color:var(--fc_03, #484b51);}
 .h2 + .list_comp.type_icon.noline {margin-top: 1.6rem;}
 
-.type_icon.fu_iconLst_1 > li::before {background: url(/msbiz/app/img/funds_manage/ico_fu_eazytax80.png) no-repeat 0 0 / auto 4rem;}
+.type_icon.fu_iconLst_1 > li::before {background: url(/front/app/img/funds_manage/ico_fu_eazytax80.png) no-repeat 0 0 / auto 4rem;}
 .type_icon.fu_iconLst_1 > li.item2::before {background-position: -4rem 0;}
 .type_icon.fu_iconLst_1 > li.item3::before {background-position: -8rem 0;}
 
@@ -95,7 +95,7 @@ strong.normal + .p {margin-top:.6rem;}
 .fu_linkLst .fu_link a > span {display: block; margin-top: 1rem;}
 .fu_linkLst .fu_link.active > a {border: 2px solid #ffcc00; background: var(--bg_01, #fff); box-shadow: 2px 3px 5px rgba(0,0,0,.15);}
 .fu_linkLst .fu_link.active > a > span {font-weight: bold;}
-.fu_linkLst .fu_link .fu_link_icon {display: block; width: 4.8rem; height: 4.8rem; margin: 0 auto; background: url(/msbiz/app/img/funds_manage/ico_fu_institutional96.png) no-repeat 0 0 / 28.8rem auto;}
+.fu_linkLst .fu_link .fu_link_icon {display: block; width: 4.8rem; height: 4.8rem; margin: 0 auto; background: url(/front/app/img/funds_manage/ico_fu_institutional96.png) no-repeat 0 0 / 28.8rem auto;}
 .fu_linkLst .fu_link .ico_48_fu_bank {background-position:-4.8rem 0;}
 .fu_linkLst .fu_link.active .ico_48_fu_bank {background-position:0 0;}
 .fu_linkLst .fu_link .ico_48_fu_card {background-position:-14.4rem 0;}
@@ -125,7 +125,7 @@ strong.normal + .p {margin-top:.6rem;}
 .list_comp .inr.grid > .col > .acc_bank.md .bk_name {padding-left:30px; padding-right:0;}
 
 .select.type_sch .select_btn {padding-right:2.4rem;}
-.select.type_sch .select_btn::after { display:block; right:0; width:2.4rem; height:2.4rem; margin-top:0; background-image:url(/msbiz/app/img/common/spr_ico_24x.png); background-repeat:no-repeat; background-position:-12rem 0; background-size:25rem auto; z-index:2; border:none; transform:translateY(-50%) rotate(0); -webkit-transform:translateY(-50%) rotate(0); -moz-transform:translateY(-50%) rotate(0); -ms-transform:translateY(-50%) rotate(0); -o-transform:translateY(-50%) rotate(0); }
+.select.type_sch .select_btn::after { display:block; right:0; width:2.4rem; height:2.4rem; margin-top:0; background-image:url(/front/app/img/common/spr_ico_24x.png); background-repeat:no-repeat; background-position:-12rem 0; background-size:25rem auto; z-index:2; border:none; transform:translateY(-50%) rotate(0); -webkit-transform:translateY(-50%) rotate(0); -moz-transform:translateY(-50%) rotate(0); -ms-transform:translateY(-50%) rotate(0); -o-transform:translateY(-50%) rotate(0); }
 .form_tit .grid .btn {position:relative; z-index:1;}
 .form_group.period .input input {padding-right:2.5rem;}
 .form_group.period .input input:focus + .unit {color:var(--fc_02, #26282c);}
@@ -380,7 +380,7 @@ strong.normal + .p {margin-top:.6rem;}
 
 .fu_erp.list_comp > li {position:relative; padding:0.8rem 1rem 1.8rem 5.6rem;}
 .fu_erp.list_comp > li:first-child { padding-top:0.8rem; }
-.fu_erp.list_comp > li::before {content:""; display:block; position:absolute; top:0; left:0; width: 4rem; height: 4rem; background: url(/msbiz/app/img/funds_manage/ico_erp_sprite80.png) no-repeat 0 0 / auto 4rem;}
+.fu_erp.list_comp > li::before {content:""; display:block; position:absolute; top:0; left:0; width: 4rem; height: 4rem; background: url(/front/app/img/funds_manage/ico_erp_sprite80.png) no-repeat 0 0 / auto 4rem;}
 .fu_erp.list_comp > li + li::before { background-position:-4rem 0; }
 .fu_erp.list_comp > li + li + li::before { background-position:-8rem 0; }
 .fu_erp.list_comp > li + li + li + li::before { background-position:-12rem 0; }
@@ -391,7 +391,7 @@ strong.normal + .p {margin-top:.6rem;}
 /* 사이버브랜치 */
 .str_group {margin-bottom: .8rem; display:flex; align-items: center; }
 .str_group strong + span {margin-left: .9rem; }
-.type_icon.fu_iconLst_2 > li::before {top:1px; background: url(/msbiz/app/img/funds_manage/ico_fu_cyberbranch96.png) no-repeat 0 0 / 16rem auto;}
+.type_icon.fu_iconLst_2 > li::before {top:1px; background: url(/front/app/img/funds_manage/ico_fu_cyberbranch96.png) no-repeat 0 0 / 16rem auto;}
 .type_icon.fu_iconLst_2 > li.item2::before {background-position: -4rem 0;}
 .type_icon.fu_iconLst_2 > li.item3::before {background-position: -8rem 0;}
 .type_icon.fu_iconLst_2 > li.item4::before {background-position: -12rem 0;}

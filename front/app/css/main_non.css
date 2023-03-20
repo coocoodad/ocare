@@ -12,7 +12,7 @@
 
 
 .cate_main .main_visual{padding: 0 2rem;}
-.main_ico{background: transparent url(/msbiz/app/img/common/spr_main.png) no-repeat 0 0 / 37.5rem auto;vertical-align: middle;}
+.main_ico{background: transparent url(/front/app/img/common/spr_main.png) no-repeat 0 0 / 37.5rem auto;vertical-align: middle;}
 .main_ico.ico_1{background-position: -.5rem -.5rem;}
 .main_ico.ico_2{background-position: -5rem -.5rem;}
 .main_ico.ico_10{background-position: -.5rem -5rem;}
@@ -141,7 +141,7 @@
 
 
 .bg_sconsulting{height: 17.3rem;}
-.bg_sconsulting::before{content: '';position: absolute;background: #f7f7f8 url(/msbiz/app/img/common/main_sconsulting_bg.jpg) no-repeat center bottom / 33.3rem auto;top:0;left:0;right:0;height:19.45rem;z-index: -1;}
+.bg_sconsulting::before{content: '';position: absolute;background: #f7f7f8 url(/front/app/img/common/main_sconsulting_bg.jpg) no-repeat center bottom / 33.3rem auto;top:0;left:0;right:0;height:19.45rem;z-index: -1;}
 
 .gd_life_banner{margin-top: 4rem;}
 .gd_life_banner a{display: flex;justify-content: space-between;padding-left: .5rem;}
@@ -149,7 +149,7 @@
 .gd_life_banner a .main_ico.ico_20{width: 13.8rem;height: 9.6rem;}
 
 .bg_consulting{height: 21.3rem;}
-.bg_consulting::before{content: '';position: absolute;background: #f7f7f8 url(/msbiz/app/img/common/main_consulting_bg.jpg) no-repeat center bottom / 33.3rem auto;top:0;left:0;right:0;height:23.45rem;z-index: -1;}
+.bg_consulting::before{content: '';position: absolute;background: #f7f7f8 url(/front/app/img/common/main_consulting_bg.jpg) no-repeat center bottom / 33.3rem auto;top:0;left:0;right:0;height:23.45rem;z-index: -1;}
 
 .consulting.list_service li{align-items: center;padding-top: 2rem;}
 .consulting.list_service li .main_ico{width: 4.8rem;height: 4.8rem;margin-right: 1.2rem;}
@@ -157,7 +157,7 @@
 .consulting.list_service li .txt .p_sub{color: #26282c;word-break: keep-all;}
 
 .bg_bridge{height: 19.3rem;}
-.bg_bridge::before{content: '';position: absolute;background: #f7f7f8 url(/msbiz/app/img/common/main_bridge_bg.jpg) no-repeat center bottom / 33.3rem auto;top:0;left:0;right:0;height:21.4rem;z-index: -1;}
+.bg_bridge::before{content: '';position: absolute;background: #f7f7f8 url(/front/app/img/common/main_bridge_bg.jpg) no-repeat center bottom / 33.3rem auto;top:0;left:0;right:0;height:21.4rem;z-index: -1;}
 
 /* KB매거진 */
 .list_link.main_list_link li > .link::after{display: none;}
@@ -198,8 +198,8 @@
 .gold_wise_wrap a{display: block;width: 12.4rem;margin: 0 auto;padding-top: 1.2rem;text-align: center;font-size: 1.5rem;color: #484b51;}
 .gold_wise_wrap a span{display: block;margin-top: 1.2rem;}
 .gold_wise_wrap a img{display: block;box-shadow: 0.2rem 0 1.2rem rgba(0,0,0,.1);}
-/* .gold_wise_wrap::before{content: '';position: absolute;top: 0; left: 0;transform: translateX(-4.8rem);background: url(/msbiz/app/img/common/gold_wise_l.png) no-repeat center bottom / 100% auto;width: 11.4rem;height: 16rem;opacity: .5;} */
-/* .gold_wise_wrap::after{content: '';position: absolute;top: 0; right: 0;transform: translateX(4.8rem);background: url(/msbiz/app/img/common/gold_wise_r.png) no-repeat center bottom / 100% auto;width: 11.4rem;height: 16rem;opacity: .5;} */
+/* .gold_wise_wrap::before{content: '';position: absolute;top: 0; left: 0;transform: translateX(-4.8rem);background: url(/front/app/img/common/gold_wise_l.png) no-repeat center bottom / 100% auto;width: 11.4rem;height: 16rem;opacity: .5;} */
+/* .gold_wise_wrap::after{content: '';position: absolute;top: 0; right: 0;transform: translateX(4.8rem);background: url(/front/app/img/common/gold_wise_r.png) no-repeat center bottom / 100% auto;width: 11.4rem;height: 16rem;opacity: .5;} */
 
 /* KB라이프 */
 .yt_single.yt_swiper .swiper-slide{width: calc(100% - 4rem) !important;margin: 0 2rem;}

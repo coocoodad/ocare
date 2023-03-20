@@ -35,7 +35,7 @@
 /* top 버튼 */
 .go_top {border:0;width:4.0rem; height:4.0rem; transform:scale(0); clip:rect(.1rem, .1rem, .1rem, .1rem); clip-path:inset(50%);transition: .3s cubic-bezier(0.39, 0.575, 0.565, 1) transform;}
 .go_top.on { position:fixed; z-index:100; right:2.4rem; bottom:3.2rem; transform: scale(1); clip:auto; clip-path:none;transition: .3s cubic-bezier(0.39, 0.575, 0.565, 1) transform;}
-/*.go_top .btn_goTop:after {content:''; display:block; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:2rem; height:2rem; background:url(/msbiz/app/img/common/spr_ico_20x.png) no-repeat -2rem -2rem; background-size: 25rem auto;}
+/*.go_top .btn_goTop:after {content:''; display:block; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:2rem; height:2rem; background:url(/front/app/img/common/spr_ico_20x.png) no-repeat -2rem -2rem; background-size: 25rem auto;}
 .btn_goTop {display:block;font-size:0;width: 100%;height: 100%;padding-top: 0;border-radius:4rem;background-color:var(--bg_01, #ffffff);font-weight:700;border:thin solid #dde1e4;}*//* 220919 삭제 */
 
 .cate_fun_tech .banner_wrap .swiper-slide{padding:0;}
@@ -45,7 +45,7 @@
 
 /* 노트형 컨텐츠 */
 /*.cate_fun_tech .word_note{position: relative;}
-.cate_fun_tech .word_note.ico_add::before{content:'';display: block;width:7rem;height: 7rem;position: absolute;right:1.5rem;top:-4.2rem;z-index:20;background-size:100%;background-repeat: no-repeat;background-image: url(/msbiz/app/img/assets/fun_tech/img_bear.png);}
+.cate_fun_tech .word_note.ico_add::before{content:'';display: block;width:7rem;height: 7rem;position: absolute;right:1.5rem;top:-4.2rem;z-index:20;background-size:100%;background-repeat: no-repeat;background-image: url(/front/app/img/assets/fun_tech/img_bear.png);}
 .word_note .note_contents{position: relative;}
 .cate_fun_tech .word_note .note_contents:before,
 .cate_fun_tech .word_note .note_contents:after,
@@ -135,7 +135,7 @@
 .cate_fun_tech .card_pattern .bg_type_sub_color strong{font-weight: 400 !important;font-size:1.4rem;}
 .cate_fun_tech .card_pattern .bg_type_color span,
 .cate_fun_tech .card_pattern .bg_type_sub_color span{word-break: keep-all;font-weight:700;font-size:1.5rem;margin-top:.5rem;display:-webkit-box; text-overflow:ellipsis; -webkit-box-orient:vertical; -webkit-line-clamp:3;overflow: hidden;max-height:6.3rem;}
-.cate_fun_tech .card_pattern .bg_type_color:after{content: '';display: block;position: absolute; bottom:1.7rem;right:1.7rem;width:3.2rem;height:3.2rem;background:url(/msbiz/app/img/assets/ico_chef.png); background-size:9.6rem 9.6rem;}
+.cate_fun_tech .card_pattern .bg_type_color:after{content: '';display: block;position: absolute; bottom:1.7rem;right:1.7rem;width:3.2rem;height:3.2rem;background:url(/front/app/img/assets/ico_chef.png); background-size:9.6rem 9.6rem;}
 .cate_fun_tech .card_pattern .bg_type_color.bg_type_1::after{background-position:0 0;}
 .cate_fun_tech .card_pattern .bg_type_color.bg_type_2::after{background-position:-3.2rem 0;}
 .cate_fun_tech .card_pattern .bg_type_color.bg_type_3::after{background-position:-6.4rem 0;}
@@ -145,7 +145,7 @@
 .cate_fun_tech .card_pattern .bg_type_color.bg_type_7::after{background-position:0 -6.4rem;}
 .cate_fun_tech .card_pattern .bg_type_color.bg_type_8::after{background-position:-3.2rem -6.4rem;}*//* 220919 삭제 */
 /* 카드형(하단 아이콘 서브) 컨퍼넌트 */
-/* .cate_fun_tech .card_pattern .bg_type_sub_color:after{content: '';display: block;position: absolute; bottom:1.6rem;right:1.6rem;width:3.2rem;height:3.2rem;background:url(/msbiz/app/img/assets/ico_funSub.png); background-size:auto 3.2rem;}
+/* .cate_fun_tech .card_pattern .bg_type_sub_color:after{content: '';display: block;position: absolute; bottom:1.6rem;right:1.6rem;width:3.2rem;height:3.2rem;background:url(/front/app/img/assets/ico_funSub.png); background-size:auto 3.2rem;}
 .cate_fun_tech .card_pattern .bg_type_sub_color.bg_type_1::after{background-position:0 0;}
 .cate_fun_tech .card_pattern .bg_type_sub_color.bg_type_2::after{background-position:-3.8rem 0;}
 .cate_fun_tech .card_pattern .bg_type_sub_color.bg_type_3::after{background-position:-7.6rem 0;}
@@ -158,7 +158,7 @@
 .cate_fun_tech .card_pattern .bg_type_sub_color.bg_type_9::after{background-position:-30.6rem 0;}
 */
 /* 부자되는 이야기 아이콘 */
-/* .cate_fun_tech .card_pattern .bg_type_sub_color.bg_type_rich:after{content: '';display: block;position: absolute; bottom:1.6rem;right:1.6rem;width:3.2rem;height:3.2rem;background:url(/msbiz/app/img/assets/ico_funSub_type2.png); background-size:auto 3.2rem;}
+/* .cate_fun_tech .card_pattern .bg_type_sub_color.bg_type_rich:after{content: '';display: block;position: absolute; bottom:1.6rem;right:1.6rem;width:3.2rem;height:3.2rem;background:url(/front/app/img/assets/ico_funSub_type2.png); background-size:auto 3.2rem;}
 .cate_fun_tech .card_pattern .bg_type_ico_1 .bg_type_sub_color.bg_type_rich::after{background-position:-0 0;}
 .cate_fun_tech .card_pattern .bg_type_ico_2 .bg_type_sub_color.bg_type_rich::after{background-position:-35.7rem 0;}
 .cate_fun_tech .card_pattern .bg_type_ico_1 + .bg_type_ico_1 .bg_type_sub_color.bg_type_rich::after{background-position:-39.7rem 0;}
@@ -217,7 +217,7 @@
 .cate_fun_tech .swipe_info{text-align: center;margin-top:1.6rem;font-size: 0;}
 .cate_fun_tech .keyVisual_swiper .swiper-pagination .swiper-pagination-current{font-weight: 700;}
 .cate_fun_tech .swipe_info .swiper-pagination{display: inline-block;font-size:0;margin:0; padding-left:0;line-height:1.6rem;  width:auto;font-weight: 300;color:#484b51;vertical-align: top;}
-.cate_fun_tech .swipe_info .btn_swiper_control{font-size: 0;position: relative;z-index: 2; width:1.6rem;height:1.6rem;display: inline-block;vertical-align: top;margin-left:.6rem;background-size:auto 2rem;background-image:url(/msbiz/app/img/etc/ico_play_resume.png);background-repeat:no-repeat;background-position:-.2rem;}
+.cate_fun_tech .swipe_info .btn_swiper_control{font-size: 0;position: relative;z-index: 2; width:1.6rem;height:1.6rem;display: inline-block;vertical-align: top;margin-left:.6rem;background-size:auto 2rem;background-image:url(/front/app/img/etc/ico_play_resume.png);background-repeat:no-repeat;background-position:-.2rem;}
 .cate_fun_tech .swipe_info .btn_swiper_control.resume{background-position:-6.2rem -.2rem;}
 .cate_fun_tech .key_visual .keyVisual_swiper .tags{padding-top:2.3rem;}
 .cate_fun_tech .key_visual .keyVisual_swiper .banner_txt{font-weight: 700;max-height: 4.6rem; display:-webkit-box; overflow:hidden; text-overflow:ellipsis; -webkit-box-orient:vertical; -webkit-line-clamp:2;word-break:keep-all;}
@@ -300,11 +300,11 @@
 
 .cate_fun_tech .fun_tech_list .list_items.type_2 li a{padding-left:6rem;}
 .cate_fun_tech .fun_tech_list .list_items.type_2 i{width:4.4rem;height:4.4rem;}
-.cate_fun_tech .fun_tech_list .list_items.type_2 a:before{content:''; display:block; width:4.8rem; height:4.8rem; position:absolute; top:0; left:0; overflow: hidden; background: url(/msbiz/app/img/main_non/icon_img.png) no-repeat; border-radius: 50%;}
+.cate_fun_tech .fun_tech_list .list_items.type_2 a:before{content:''; display:block; width:4.8rem; height:4.8rem; position:absolute; top:0; left:0; overflow: hidden; background: url(/front/app/img/main_non/icon_img.png) no-repeat; border-radius: 50%;}
 .cate_fun_tech .fun_tech_list .list_items span.cate_hash{display: inline-block;color:var(--fc_04, #696e76);padding-right:2.4rem;position: relative;max-width:calc(100% - 8.5rem);}
 .cate_fun_tech .fun_tech_list .list_items span.tit{display: block;font-weight: 400;font-size: 1.6rem;color:var(--fc_02, #26282c);margin-top:.5rem;}
 .cate_fun_tech .fun_tech_list .list_items span.number{color:var(--fc_05, #8c949e);}
-.cate_fun_tech .fun_tech_list .list_items .new .cate_hash:after {content:""; display:inline-block; position:absolute; top:0; right:0; width:2rem; height:2rem; background:url(/msbiz/app/img/common/spr_ico_20x.png) no-repeat -22rem -14rem; background-size:25rem auto; transform: scale(.8);} 
+.cate_fun_tech .fun_tech_list .list_items .new .cate_hash:after {content:""; display:inline-block; position:absolute; top:0; right:0; width:2rem; height:2rem; background:url(/front/app/img/common/spr_ico_20x.png) no-repeat -22rem -14rem; background-size:25rem auto; transform: scale(.8);} 
 
 .cate_fun_tech .fun_tech_list .list_items.type_2 li.tax a:before {background-position: 0 -6.4rem; background-size: 45rem;}
 .cate_fun_tech .fun_tech_list .list_items.type_2 li.property a:before {background-position: -6.4rem -20.1rem; background-size: 33rem;}
@@ -353,8 +353,8 @@
 
 /* .cate_fun_tech .tech_acc {position:relative; padding:2.4rem; background:#f9f9f9; z-index: 10; border-radius:.8rem;}
 .cate_fun_tech .tech_acc a{width:100%;}
-.cate_fun_tech .tech_acc:after {display:block; content:''; position:absolute; top:-4rem; right:0.8rem; width:9rem; height:8rem; background:url(/msbiz/app/img/assets/img_charac_0530.png) no-repeat 100% 100%/contain;}
-.cate_fun_tech .tech_acc.trend:after {background:url('/msbiz/app/img/assets/character2.png') no-repeat -20rem -10.2rem/38.4rem 18.2rem;}
+.cate_fun_tech .tech_acc:after {display:block; content:''; position:absolute; top:-4rem; right:0.8rem; width:9rem; height:8rem; background:url(/front/app/img/assets/img_charac_0530.png) no-repeat 100% 100%/contain;}
+.cate_fun_tech .tech_acc.trend:after {background:url('/front/app/img/assets/character2.png') no-repeat -20rem -10.2rem/38.4rem 18.2rem;}
 .cate_fun_tech .tech_acc .p {font-size:1.4rem; line-height:2rem;}
 .cate_fun_tech .tech_acc .tit {display:block; margin-top:1.6rem; font-size:1.8rem; color:#7b53d1; line-height:2.8rem;}
 .cate_fun_tech .tech_acc .txt {margin-top:.8rem; line-height:2.3rem; color:var(--fc_03, #484b51);font-size:1.6rem;height:6.9rem; overflow:hidden;}
@@ -433,16 +433,16 @@
 .cate_fun_tech .banner + .banner {margin-top:3.2rem;}
 .cate_fun_tech .board_view_tit .info .col_l span + span{margin-left:2rem;}
 /* .cate_fun_tech .board_view_tit .info:after {display:block; content:''; clear:both;}
-.cate_fun_tech .board_view_tit .share {float:right; width:2rem; height:2rem; background-image:url('/msbiz/app/img/common/spr_ico_20x.png'); background-size:25rem auto; background-position:-20rem -6rem;} */
+.cate_fun_tech .board_view_tit .share {float:right; width:2rem; height:2rem; background-image:url('/front/app/img/common/spr_ico_20x.png'); background-size:25rem auto; background-position:-20rem -6rem;} */
 
-/* .cate_fun_tech .money_sns .character_box {min-height:15.6rem;padding-right:0;background:url(/msbiz/app/img/assets/img_money_sns.png) no-repeat right bottom;background-size:12.6rem auto;margin-right:1.8rem;margin-bottom:-.3rem;} */
+/* .cate_fun_tech .money_sns .character_box {min-height:15.6rem;padding-right:0;background:url(/front/app/img/assets/img_money_sns.png) no-repeat right bottom;background-size:12.6rem auto;margin-right:1.8rem;margin-bottom:-.3rem;} */
 /* .cate_fun_tech .money_sns.banners .swiper-wrapper {height:auto;}
 .cate_fun_tech .money_sns.banners .swiper-pagination {margin-top:1rem;}
 .cate_fun_tech .money_sns [class*=icon1] {background-color:#fcf3f9;}
 .cate_fun_tech .money_sns [class*=icon2] {background-color:#edf8fb;}
 .cate_fun_tech .money_sns [class*=icon3] {background-color:#ebf9f2;}
 .cate_fun_tech .money_sns .contents_banner {height:12rem;padding:2.1rem 13rem 2.3rem 2.3rem;position: relative; border-radius:.8rem;width: 100%;}
-.cate_fun_tech .money_sns .contents_banner:after {content:'';position: absolute; display: block; right:2.5rem;bottom:1.5rem;width:8.3rem;height:9rem;background:url(/msbiz/app/img/assets/ico_money_sns.png) no-repeat;background-size:27rem auto;}
+.cate_fun_tech .money_sns .contents_banner:after {content:'';position: absolute; display: block; right:2.5rem;bottom:1.5rem;width:8.3rem;height:9rem;background:url(/front/app/img/assets/ico_money_sns.png) no-repeat;background-size:27rem auto;}
 .cate_fun_tech .money_sns .contents_banner + .contents_banner {margin-top:0.8rem;}
 .cate_fun_tech .money_sns .contents_banner.icon11:after {background-position:0rem 0rem;}
 .cate_fun_tech .money_sns .contents_banner.icon12:after {background-position:-8.8rem 0rem;}
@@ -474,7 +474,7 @@
 .cate_fun_tech .calculator_list .flex:last-child {padding-bottom:0;}
 .cate_fun_tech .calculator_list .flex div {width:50%;}
 .cate_fun_tech .calculator_list .flex a {position:relative; width:100%; padding-left:3.2rem;}
-.cate_fun_tech .calculator_list .flex div a:before {content:''; position:absolute; left:0; top:50%; transform:translateY(-50%); width:2.4rem; height:2.4rem; background:url(/msbiz/app/img/assets/fun_tech/ico_calculator.png);background-size:auto 2.4rem;background-repeat: no-repeat;}
+.cate_fun_tech .calculator_list .flex div a:before {content:''; position:absolute; left:0; top:50%; transform:translateY(-50%); width:2.4rem; height:2.4rem; background:url(/front/app/img/assets/fun_tech/ico_calculator.png);background-size:auto 2.4rem;background-repeat: no-repeat;}
 .cate_fun_tech .calculator_list .flex:not(:last-child) {border-bottom:.1rem solid rgba(0,0,0,.08);}
 .cate_fun_tech .fun_swiper_wrapper.youtube_thumb .swiper-slide {width:26.1rem;}
 .cate_fun_tech .fun_swiper_wrapper.youtube_thumb .thumb_banner .thumb {height:14.4rem;} 
@@ -526,7 +526,7 @@
 .cate_fun_tech .swiper-button-prev,
 .cate_fun_tech .swiper-button-next {opacity:1; width:4.8rem; height:4.8rem; outline:0;display: none;}
 .cate_fun_tech .swiper-button-prev:after,
-.cate_fun_tech .swiper-button-next:after {content:""; width:1.6rem; height:3rem; background:url(/msbiz/app/img/etc/swiper_button.png) no-repeat 0 0; background-size:3.2rem auto;}
+.cate_fun_tech .swiper-button-next:after {content:""; width:1.6rem; height:3rem; background:url(/front/app/img/etc/swiper_button.png) no-repeat 0 0; background-size:3.2rem auto;}
 .cate_fun_tech .swiper-button-next:after {background-position:-1.6rem 0;}
 .cate_fun_tech .swiper-button-prev.swiper-button-disabled:after {background-position:0 -3rem;}
 .cate_fun_tech .swiper-button-next.swiper-button-disabled:after {background-position:-1.6rem -3rem;}

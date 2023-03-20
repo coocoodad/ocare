@@ -29,16 +29,16 @@
 .js_move.on > .form_group.form_trans {margin:25% 0 0 0}
 .form_group.form_trans .form_trans_tip{margin-top:1.3rem;text-align:center}
 .form_group.form_trans .form_trans_tip .tip{display:inline-block;margin-top:0}
-.ico_trans_favorite {width:2rem;height:2rem;background:url(/msbiz/app/img/common/spr_ico_20x.png) no-repeat -4rem -18rem; background-size:25rem auto;vertical-align:top}
+.ico_trans_favorite {width:2rem;height:2rem;background:url(/front/app/img/common/spr_ico_20x.png) no-repeat -4rem -18rem; background-size:25rem auto;vertical-align:top}
 .ico_trans_favorite.active {background-position:-6rem -18rem}
-.ico_trans_share{width:2rem;height:2rem;background-image:url(/msbiz/app/img/common/spr_ico_24x.png);background-size: 20.8rem auto;background-position:-8rem -8rem}
+.ico_trans_share{width:2rem;height:2rem;background-image:url(/front/app/img/common/spr_ico_24x.png);background-size: 20.8rem auto;background-position:-8rem -8rem}
 
 /* BFE003093 */
 header + #content{min-height: calc(100% - 5.6rem);}
 .header_logo{padding:2.4rem 2.4rem 1.2rem;}
-.header_logo::before{content: "";display:block;width:11.3rem;height:2rem;background:url(/msbiz/app/img/common/logo_kb_150x.png) no-repeat 0 0 / 100% auto;}
+.header_logo::before{content: "";display:block;width:11.3rem;height:2rem;background:url(/front/app/img/common/logo_kb_150x.png) no-repeat 0 0 / 100% auto;}
 .contact_result{margin: 0 -.5rem;overflow: hidden;}
-.contact_result::before{content:"";display:block;height:17.9rem;background: #fff2c4 url(/msbiz/app/img/transfer/img_contact_result.png) no-repeat 50% 0 / auto 17.9rem;}
+.contact_result::before{content:"";display:block;height:17.9rem;background: #fff2c4 url(/front/app/img/transfer/img_contact_result.png) no-repeat 50% 0 / auto 17.9rem;}
 .contact_result .tit{font-size: 1.8rem;text-align: center;margin: 3.2rem 0;}
 .contact_result .tit .number{font-size: 2rem;}
 
@@ -92,7 +92,7 @@ header + #content{min-height: calc(100% - 5.6rem);}
 .tr_top_sum .total .bk_pay{position:absolute;top:0;right:0;font-size:1.7rem;font-weight:700}
 .tr_top_sum .total .bk_pay .number{font-size:1.9rem;font-weight:500}
 
-.stave_off:before{ content: ''; display: block; margin: 2.4rem auto 1.6rem; width: 4.8rem; height: 4.8rem; background-image: url(/msbiz/app/img/common/spr_ico_48x.png); background-size: 25rem auto; background-position: 0 -9.6rem;}
+.stave_off:before{ content: ''; display: block; margin: 2.4rem auto 1.6rem; width: 4.8rem; height: 4.8rem; background-image: url(/front/app/img/common/spr_ico_48x.png); background-size: 25rem auto; background-position: 0 -9.6rem;}
 .stave_off .h2{text-align:center; margin:2rem 0 2.8rem;}
 
 .declare_area{text-align:center; margin-top:4rem;}
@@ -124,10 +124,10 @@ header + #content{min-height: calc(100% - 5.6rem);}
 
 .tell_info { margin-top:2rem; }
 .tell_info .tell_ico{position:relative; padding-left:5.2rem;}
-.tell_info .tell_ico:before{content:''; display:block; position:absolute; top:0; left:0; width:4rem; height:4rem; background-image:url(/msbiz/app/img/common/spr_ico_40x.png); background-size:25rem auto; background-position:-20.5rem -20rem;}
+.tell_info .tell_ico:before{content:''; display:block; position:absolute; top:0; left:0; width:4rem; height:4rem; background-image:url(/front/app/img/common/spr_ico_40x.png); background-size:25rem auto; background-position:-20.5rem -20rem;}
 .tell_info .number{font-size:1.9rem; font-weight:500;}
 
-.ico_contact {width:2.4rem; height:2.4rem; background:url(/msbiz/app/img/transfer/ico_contact.png) no-repeat; background-size:2rem auto;}
+.ico_contact {width:2.4rem; height:2.4rem; background:url(/front/app/img/transfer/ico_contact.png) no-repeat; background-size:2rem auto;}
 
 .tr_result.acc_pannel + .tr_result.acc_pannel { margin-top:1.6rem; }
 .tr_result.acc_pannel .list_data.noline { border:none; }
@@ -135,7 +135,7 @@ header + #content{min-height: calc(100% - 5.6rem);}
 .tr_result.acc_pannel .list_data.noline > li { padding:0.4rem 0; }
 .tr_result.acc_pannel .list_data.noline > li.line { border-top: 1px solid var(--bdc_01, #ebeef0); padding-top: 1.2rem; }
 
-.logo_inner { width:15rem; height:2.6rem; margin:0 auto; background:url(/msbiz/app/img/common/logo_kb_150x.png) no-repeat; background-size:100% auto; }
+.logo_inner { width:15rem; height:2.6rem; margin:0 auto; background:url(/front/app/img/common/logo_kb_150x.png) no-repeat; background-size:100% auto; }
 /* E : 입금계좌선택 */
 
  /* 다른 금융착오송금 반환신청 */
@@ -143,7 +143,7 @@ header + #content{min-height: calc(100% - 5.6rem);}
 .tr_request_step li { float:left; position:relative;}
 .tr_request_step li:not(.arrow) { width:5.6rem; padding-top:6.7rem; font-size:1.4rem; color:var(--fc_03, #484b51); text-align:center; }
 .tr_request_step li:not(.arrow)::before { content:''; display:block; position:absolute; left:0; top:0; width:5.6rem; height:5.6rem; border-radius: 3rem; background-color:var(--fc_10, #f7f7f8);}
-.tr_request_step li:not(.arrow)::after {content:''; display:block; position:absolute; width:2.7rem; height:2.8rem; top:1.6rem; left:50%; margin-left:-1.35rem; background:url(/msbiz/app/img/transfer/spr_ico_request_step.png) no-repeat 0 0 / 11rem auto; }
+.tr_request_step li:not(.arrow)::after {content:''; display:block; position:absolute; width:2.7rem; height:2.8rem; top:1.6rem; left:50%; margin-left:-1.35rem; background:url(/front/app/img/transfer/spr_ico_request_step.png) no-repeat 0 0 / 11rem auto; }
 .tr_request_step li:nth-child(3)::after { background-position:-2.7rem 0; }
 .tr_request_step li:nth-child(5)::after { width:2.6rem; background-position:-5.5rem 0; }
 .tr_request_step li:nth-child(7)::after { width:2.8rem; background-position:-8.3rem 0; }
@@ -226,7 +226,7 @@ header + #content{min-height: calc(100% - 5.6rem);}
 .verifi_time .count_time + button:before { content: ''; width: 1px; height: 1.4rem; background-color: var(--fc_08, #dde1e4); position: absolute; top: 50%; transform: translateY(-50%); left: -1rem; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); }
 .verifi_time .count_time + button:after {margin-top: -1rem;}
 
-.tr_smart_intro .tr_banner {height: 16.1rem; background: url(/msbiz/app/img/transfer/banner_smart_tr.png) no-repeat 0 0/cover;}
+.tr_smart_intro .tr_banner {height: 16.1rem; background: url(/front/app/img/transfer/banner_smart_tr.png) no-repeat 0 0/cover;}
 
 
 /* ---- 급여이체 ----- */
@@ -240,7 +240,7 @@ header + #content{min-height: calc(100% - 5.6rem);}
 .banner_type .banner_txt .txt {font-size: 1.4rem; color: var(--fc_04, #696e76); margin-top: 0.6rem; line-height: 1.43;}
 .banner_type:after {content: ''; position: absolute; width: 8.7rem; height: 7.5rem; top: 2.4rem; right: 2rem; background-size: cover;}
 .banner_type.tr01 .banner_txt .txt  {margin-bottom: 2rem;}
-.banner_type.tr01:after {right: 0; width: 12.2rem; height: 9.45rem; background-image: url(/msbiz/app/img/transfer/tr_salary_banner.png);}
+.banner_type.tr01:after {right: 0; width: 12.2rem; height: 9.45rem; background-image: url(/front/app/img/transfer/tr_salary_banner.png);}
 
 /* 부족한 금액 모으기 */
 .tr_shortage {margin-top: 1.4rem;}
@@ -320,7 +320,7 @@ header + #content{min-height: calc(100% - 5.6rem);}
 .tr_topline_agree .list .p_sub {padding-bottom: 1.5rem;}
 
 /* 급여명부등록관리 */
-.result.tr_first .result_ico {width: 5.2rem; height: 4.7rem; background: url(/msbiz/app/img/transfer/tr_salary_first.png) no-repeat 0 0/cover;}
+.result.tr_first .result_ico {width: 5.2rem; height: 4.7rem; background: url(/front/app/img/transfer/tr_salary_first.png) no-repeat 0 0/cover;}
 .result.tr_first .tit {font-size: 1.8rem;}
 .result.tr_first .txt {font-size: 1.6rem;}
 .tr_tit_btn {margin-top: 1.4rem;}

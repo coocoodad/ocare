@@ -9,7 +9,7 @@
 .list.fo_exchange_info > li {padding:0;}
 .list.fo_exchange_info > li:first-child {border-top-color:var(--fc_11, #fff);}
 .list.fo_exchange_info > li > .tit {display:block; position:relative; line-height: 1.4 !important; padding:2rem 0 2rem 4.3rem !important;}
-/* .list.fo_exchange_info > li > .tit .im {display:inline-block; position:absolute; left:.2rem; top:50%; z-index:1; width:4rem; height:4rem; margin-top:-2rem; border-radius: 10rem; background-image: url(/msbiz/app/img/common/country_flag.png); background-size: 25rem auto;} */ /* 220919 삭제 */
+/* .list.fo_exchange_info > li > .tit .im {display:inline-block; position:absolute; left:.2rem; top:50%; z-index:1; width:4rem; height:4rem; margin-top:-2rem; border-radius: 10rem; background-image: url(/front/app/img/common/country_flag.png); background-size: 25rem auto;} */ /* 220919 삭제 */
 .list.fo_exchange_info > li > .tit .name {font-size: 1.8rem; color:var(--fc_02, #26282c);}
 .list.fo_exchange_info > li > .tit .rate {margin-top:.8rem; color:var(--fc_03, #484b51);}
 .list.fo_exchange_info > li > .tit .rate .r_tit {margin-right:.5rem; font-size:1.6rem; color:var(--fc_04, #696e76);}
@@ -138,7 +138,7 @@
 /*** forex_psj.css ***/
 .reltiv .btn_txt.ico_arr {position: relative; right:0; top:0; }
 .retish {position:relative; padding-left:25px;}
-.retish:before {position:absolute; left:0px; top:5%;content:''; display:inline-block; background-size:2rem 2rem;background-position:left top;background-image:url(/msbiz/app/img/event/pling.png); background-repeat: no-repeat; width:20px; height:20px;} 
+.retish:before {position:absolute; left:0px; top:5%;content:''; display:inline-block; background-size:2rem 2rem;background-position:left top;background-image:url(/front/app/img/event/pling.png); background-repeat: no-repeat; width:20px; height:20px;} 
 /* BFE019830 margin-top 간격 조정 필요 */
 .inform_top_wrap {margin:1.5rem 0 3.2rem; }
 /* == BFE019830 margin-top 간격 조정 필요 */
@@ -154,7 +154,7 @@
 .money_blue {background-color:#e9f2ff !important; width:100%; height:100%; display:flex; align-items:center; justify-content:flex-end; padding-right:8%; color:#297eff; position:absolute; top:0px; left:0px;}
 .forex_img1  {position:relative;}
 .forex_img1 img {display:block; margin:2rem auto 0;}
-span.depth.info:before {content:''; display:inline-block; position:absolute; top:-.2rem; left:0; width:2rem; height:2rem; background:url(/msbiz/app/img/common/spr_ico_20x.png) no-repeat -22rem -4rem; background-size: 25rem auto;}
+span.depth.info:before {content:''; display:inline-block; position:absolute; top:-.2rem; left:0; width:2rem; height:2rem; background:url(/front/app/img/common/spr_ico_20x.png) no-repeat -22rem -4rem; background-size: 25rem auto;}
 .tab_list .scroll_wrap.tabsit > span {position:relative; margin:0; padding:.8rem 0.2rem 1.2rem; overflow:visible; color:#8c949e; font-size:1.6rem; text-align:center; letter-spacing:-.05rem; font-weight:700;}
 .tab_wrap .tab_list .scroll_wrap.tabsit > span {display:block;position:relative;height:4rem; line-height:4rem; padding:0 .2rem; text-align:center;}
 .tab_wrap .tab_list .scroll_wrap.tabsit > span.active{border-radius:0; outline:0; color:#26282c; background-color:#fff;font-weight:700}
@@ -189,7 +189,7 @@ p.fn_black{color:var(--fc_02, #484b51); margin-top:1.2rem; font-size:1.4rem;}
 .tr_deposit.pop_section > .tab_wrap > .tab_list {padding-left:2.4rem}
 .tr_deposit.pop_section .tab_list .btn_area {position:absolute; right:2.5rem; top:-.3rem; width:5rem; background:var(--fc_11, #fff); z-index:30;}
 .tr_deposit.pop_section .btn_ico_search {display:block; position:relative; width:4rem; height:4rem;}
-.tr_deposit.pop_section .btn_ico_search:before{content:''; display:block; width:2rem; height:2rem; margin:0 auto; background-image:url(/msbiz/app/img/common/spr_ico_20x.png); background-size:25rem auto; background-position:-18rem 0;}
+.tr_deposit.pop_section .btn_ico_search:before{content:''; display:block; width:2rem; height:2rem; margin:0 auto; background-image:url(/front/app/img/common/spr_ico_20x.png); background-size:25rem auto; background-position:-18rem 0;}
 .tr_deposit.pop_section > .tab_wrap .tab_panel {padding:0}
 .tr_deposit.pop_section .acc_group_wrap.js_accordion > li a:not(.btn_select) {    padding: 1.4rem 2.4rem 1.2rem;
     background: var(--fc_09, #ebeef0);

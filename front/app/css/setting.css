@@ -21,7 +21,7 @@
 
 /*** 기타 ***/
 /* 캐시/쿠키 삭제 */
-.se_cookie.list_link li:before {background:url(/msbiz/app/img/setting/ico_setting_cookie.png) no-repeat; background-size:12rem auto;}
+.se_cookie.list_link li:before {background:url(/front/app/img/setting/ico_setting_cookie.png) no-repeat; background-size:12rem auto;}
 .se_cookie.list_link .item1::before {background-position:0 0;}
 .se_cookie.list_link .item2::before {background-position:-4rem 0;}
 .se_cookie.list_link .item3::before {background-position:-8rem 0;}

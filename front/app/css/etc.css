@@ -51,7 +51,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .ftit_area .h2 {margin-top:0;}
 .gaint_sns_wrap {position: absolute; right:0; bottom:.3rem;}
 .gaint_sns_wrap .ico_snsso {position:relative;}
-.gaint_sns_wrap .ico_snsso::after {content:''; display:inline-block; position:absolute; right:0rem; top:50%; width:2rem; height:2rem; margin-top:-1rem; background-image: url(/msbiz/app/img/common/sns_icon.png); background-size: 25rem auto;}
+.gaint_sns_wrap .ico_snsso::after {content:''; display:inline-block; position:absolute; right:0rem; top:50%; width:2rem; height:2rem; margin-top:-1rem; background-image: url(/front/app/img/common/sns_icon.png); background-size: 25rem auto;}
 .topsolid {border-top:1px solid var(--fc_03, #484b51); padding-top:1.6rem;}
 .gray_boxtit {background:#f7f7f8; display:flex; justify-content:center; align-items:center; text-align:center; color:#287eff; font-size:1.6rem; height:12rem; font-weight:bold; width:100%;}
 .line_nones {border-top:0px; border-bottom:0px; margin-bottom:0px; padding-top:0px;}
@@ -71,7 +71,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .wordove1 {overflow:hidden; word-break: break-all; white-space: nowrap; text-overflow: ellipsis;}
 .btn_schs1 {width:4em;height:4rem;margin:0;padding:0; position:absolute; display:block; top:3.5rem; right:-2rem;transform:translateY(-100%);}
 .btn_schs1 span.arrow {display:none;}
-.btn_schs1:after {content:''; display:block; position:relative; top:-1px; width:2.4rem; height:2.4rem; background-image:url(/msbiz/app/img/common/spr_ico_24x.png); background-repeat:no-repeat; background-position:-12rem 0; background-size:25rem auto; z-index:2;}
+.btn_schs1:after {content:''; display:block; position:relative; top:-1px; width:2.4rem; height:2.4rem; background-image:url(/front/app/img/common/spr_ico_24x.png); background-repeat:no-repeat; background-position:-12rem 0; background-size:25rem auto; z-index:2;}
 
 /*221021 이벤트 페이지 슬라이드 수정 */
 .cate_event_wrap {overflow:hidden;}
@@ -145,7 +145,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .cate_etcs.lab_card_news .board_view_cont .swiper-button-next::after {transform:rotate(135deg); -webkit-transform:rotate(135deg); -moz-transform:rotate(135deg); -ms-transform:rotate(135deg); -o-transform:rotate(135deg)}
 .cate_etcs.lab_card_news .board_view_cont .swiper-button-next.swiper-button-disabled,
 .cate_etcs.lab_card_news .board_view_cont .swiper-button-prev.swiper-button-disabled {opacity:.2}
-.sns_list li .share_more:before {background:url(/msbiz/app/img/common/spr_ico_60x.png) no-repeat; background-size:35rem; background-position:-15.1rem -8.1rem}
+.sns_list li .share_more:before {background:url(/front/app/img/common/spr_ico_60x.png) no-repeat; background-size:35rem; background-position:-15.1rem -8.1rem}
 
 .lab_card_news_swiper {overflow:hidden}
 .lab_card_news_swiper .swiper-slide {text-align:center}
@@ -159,7 +159,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 
 /* 비즈니스인사이트 - 투자셰프 리스트 */
 .cate_etcs .list_icon a {padding:2rem 0}
-.cate_etcs .list_icon a .li_ico {display:inline-block; margin-top:-.2rem; width:2.4rem; height:2.4rem; background:url(/msbiz/app/img/etc/icon_pdf_s.png) no-repeat; background-size:2.4rem}
+.cate_etcs .list_icon a .li_ico {display:inline-block; margin-top:-.2rem; width:2.4rem; height:2.4rem; background:url(/front/app/img/etc/icon_pdf_s.png) no-repeat; background-size:2.4rem}
 .cate_etcs .list_icon a .tit {display:inline-block}
 .cate_etcs .list_icon a .info {margin-top:0}
 
@@ -168,7 +168,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .cate_etcs .board_detail_tit.acc_wrap .acc_top_info.divide span {font-size:1.5rem}
 .cate_etcs .section.board_detail + .section::before {content:''; position:absolute; top:-2rem; left:0; display:block; width:100%; height:.1rem; background:#dde1e4}
 .cate_etcs .file_attach .btn_attach {position:relative}
-.cate_etcs .file_attach .btn_attach::before {content:''; position:absolute; top:0; left:0; display:inline-block; width:2.4rem; height:2.4rem; background:url(/msbiz/app/img/common/spr_ico_24x.png) no-repeat; background-size:24rem}
+.cate_etcs .file_attach .btn_attach::before {content:''; position:absolute; top:0; left:0; display:inline-block; width:2.4rem; height:2.4rem; background:url(/front/app/img/common/spr_ico_24x.png) no-repeat; background-size:24rem}
 .cate_etcs .file_attach .btn_attach.ico_pdf::before {background-position:53% 42.5%}
 .cate_etcs .file_attach .btn_attach.ico_hwp::before {background-position:64% 42.5%}
 .cate_etcs .file_attach .btn_attach {padding-left:2.8rem; font-size:1.4rem; text-decoration:underline}
@@ -213,12 +213,12 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .et_h2{position:relative;margin: 0 2.4rem;padding: 0 .6rem;margin-bottom: 7rem;z-index:1;}
 
 .et_inform_top_wrap{position: relative;padding: .8rem 2rem;border-radius:.8rem;background: #ffda48;margin: 0 2rem;}
-.et_inform_top_wrap::before{content: "";position:absolute;left:0;right:0;bottom: 0;top:-13.1rem;background: url(/msbiz/app/img/etc/group_visual.png) no-repeat right top / 33.5rem auto;}
+.et_inform_top_wrap::before{content: "";position:absolute;left:0;right:0;bottom: 0;top:-13.1rem;background: url(/front/app/img/etc/group_visual.png) no-repeat right top / 33.5rem auto;}
 .et_inform_top_wrap ul{display: flex;flex-wrap: wrap;}
 .et_inform_top_wrap ul li{width: 50%;border-bottom: 1px solid rgba(255, 255, 255, .5);}
 .et_inform_top_wrap ul li:nth-of-type(4) ~ li{border-bottom: 0 none;}
 .et_inform_top_wrap ul li a{position: relative;display: flex;align-items: center;padding: 1.6rem 0;color: var(--fc_02, #26282c);}
-.et_inform_top_wrap ul li a::before{content: '';display:block;width:1.8rem;height:1.8rem;margin-left: .5rem;margin-right:.8rem;background: url(/msbiz/app/img/etc/ico_smain.png) no-repeat left top / 25rem auto;}
+.et_inform_top_wrap ul li a::before{content: '';display:block;width:1.8rem;height:1.8rem;margin-left: .5rem;margin-right:.8rem;background: url(/front/app/img/etc/ico_smain.png) no-repeat left top / 25rem auto;}
 .et_inform_top_wrap ul li a.ico1::before{background-position: -9.9rem -8.3rem;}
 .et_inform_top_wrap ul li a.ico2::before{background-position: -.25rem -8.3rem;}
 .et_inform_top_wrap ul li a.ico3::before{background-position: -5.15rem -8.3rem;}
@@ -227,14 +227,14 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .et_inform_top_wrap ul li a.ico6::before{background-position: -15rem -8.4rem;}
 
 .et_list_link li a{padding: 2.6rem 3.5rem 2.6rem 5rem !important;}
-.et_list_link li a::before{content: "";position:absolute;width:3.6rem;height:3.6rem;left:.2rem;top:50%;transform:translateY(-50%);background: url(/msbiz/app/img/etc/ico_smain.png) no-repeat left top / 25rem auto;}
+.et_list_link li a::before{content: "";position:absolute;width:3.6rem;height:3.6rem;left:.2rem;top:50%;transform:translateY(-50%);background: url(/front/app/img/etc/ico_smain.png) no-repeat left top / 25rem auto;}
 .et_list_link li:nth-of-type(1) a::before{background-position: -.5rem -17rem;}
 .et_list_link li:nth-of-type(2) a::before{background-position: -4.5rem -17rem;}
 .et_list_link li:nth-of-type(3) a::before{background-position: -8.5rem -17rem;}
 .et_list_link li:nth-of-type(4) a::before{background-position: -12.5rem -17rem;}
 /* .et_list_link li:nth-of-type(5) a::before{background-position: -16.2rem -17rem;} */
 
-.et_ico_logo::before{content: "";display:inline-block;width:3.6rem;height:3.6rem;background: url(/msbiz/app/img/etc/ico_smain.png) no-repeat left top / 25rem auto;}
+.et_ico_logo::before{content: "";display:inline-block;width:3.6rem;height:3.6rem;background: url(/front/app/img/etc/ico_smain.png) no-repeat left top / 25rem auto;}
 .et_ico_logo.logo1::before{background-position: -.25rem -.3rem;}
 .et_ico_logo.logo2::before{background-position: -4.25rem -.3rem;}
 .et_ico_logo.logo3::before{background-position: -8.25rem -.3rem;}
@@ -279,7 +279,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 /* KB 증권 */
 .et_icon_list{margin-top: 2rem;border-top: 1px solid var(--bdc_01, #ebeef0);}
 .et_icon_list a{position: relative;display: flex;align-items: center;padding: 2rem 0;border-bottom: 1px solid var(--bdc_01, #ebeef0);font-weight: 700;}
-.et_icon_list a::before{content: '';width: 4rem;height:4rem; background:url(/msbiz/app/img/etc/ico_make_card.png) no-repeat 0 0 / 20rem auto;margin-right:2rem;}
+.et_icon_list a::before{content: '';width: 4rem;height:4rem; background:url(/front/app/img/etc/ico_make_card.png) no-repeat 0 0 / 20rem auto;margin-right:2rem;}
 .et_icon_list a.ico_1::before{background-position: -8rem 0;}
 .et_icon_list a.ico_2::before{background-position: 0 -4rem;}
 .et_icon_list a.ico_3::before{background-position: -4rem -4rem;}
@@ -293,7 +293,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .et_icon_list.hor{margin-top: 2.4rem;border: 0 none;display:flex;justify-content: space-between;}
 .et_icon_list.hor a{flex-direction:column;justify-content: space-between;align-items:stretch;padding: 1rem 1rem 1.2rem;background: #f7f7f8;flex: 1;height:10.8rem;border: 0 none;border-radius: .8rem;color:var(--fc_03, #484b51);text-align: right;}
 .et_icon_list.hor a + a{margin-left: 1rem;}
-.et_icon_list.hor a::before{background-image: url(/msbiz/app/img/etc/ico_group_line.png); background-size: 12rem;}
+.et_icon_list.hor a::before{background-image: url(/front/app/img/etc/ico_group_line.png); background-size: 12rem;}
 .et_icon_list.hor a:nth-of-type(2):before{background-position: -4rem 0;}
 .et_icon_list.hor a:nth-of-type(3):before{background-position: -8rem 0;}
 .et_icon_list.hor a::after {display:none;}
@@ -309,7 +309,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .divide_line span:not(:first-child)::before {content: '';position: absolute; top:0.3rem; left:1.1rem; width: .1rem; height: 1.4rem; background-color: var(--bdc_03, #c6cbd0);}
 
 .result.no_product{padding-top: 4rem;}
-.result.no_product::before{content: '';display: block;width: 4.8rem;height: 4.8rem;margin: 0 auto; background-image:url(/msbiz/app/img/common/spr_ico_48x.png); background-size:25rem auto;background-position: -4.8rem top;}
+.result.no_product::before{content: '';display: block;width: 4.8rem;height: 4.8rem;margin: 0 auto; background-image:url(/front/app/img/common/spr_ico_48x.png); background-size:25rem auto;background-position: -4.8rem top;}
 .result.no_product .tit{margin-top: 1.6rem; font-size: 1.6rem;font-weight: 400;}
 .result.no_product .txt{margin-top: .8rem; font-size: 1.4rem;}
 
@@ -338,7 +338,7 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 .list_link.icon.list_capital > li .link{padding-top:3rem; padding-bottom:2rem; min-height:8rem;}
 .list_link.icon.list_top_bd li:first-child > .link{padding-top:3rem;}
 .list_link.icon.list_capital > li:first-child::before,
-.list_link.icon.list_capital > li::before{top:2rem; background:url(/msbiz/app/img/etc/ico_capital.png) no-repeat; background-size:25rem auto;}
+.list_link.icon.list_capital > li::before{top:2rem; background:url(/front/app/img/etc/ico_capital.png) no-repeat; background-size:25rem auto;}
 .list_link.icon.list_capital > li:nth-child(1)::before {background-position:0 0;}
 .list_link.icon.list_capital > li:nth-child(2)::before {background-position:-4rem 0;}
 .list_link.icon.list_capital > li:nth-child(3)::before {background-position:-8rem 0;}
@@ -354,13 +354,13 @@ img.wins {width:17rem; height:auto; display:block; margin:0 auto;}
 #basic_info + #detail_info{margin-top:0;}
 
 /* 납입요청 메세지 안내 */
-.result .etc_img{display:block; width:6rem;height:6rem;margin:0 auto;background-image: url(/msbiz/app/img/etc/icon_renton_message.png); background-size:6rem 6rem;}
+.result .etc_img{display:block; width:6rem;height:6rem;margin:0 auto;background-image: url(/front/app/img/etc/icon_renton_message.png); background-size:6rem 6rem;}
 
 /* 입금확인 바텀시트 배너 */
 .banner_deposit{ position: relative; display:block; width:100%; height:13rem; margin-top:2rem;padding:2.8rem 2.4rem; background-color: var(--bg_02, #f7f7f8); border:none; border-radius:.8rem; -webkit-border-radius:.8rem; -moz-border-radius:.8rem; -ms-border-radius:.8rem; -o-border-radius:.8rem; }
 .banner_deposit > span{width:8.2rem; height:9.6rem;}
-.banner_deposit > span.ico_partner1{content: ""; position: absolute; top:2.8rem; right:0; background-image: url(/msbiz/app/img/etc/ico_partner02.png); background-size:8.2rem 9.6rem;}
-.banner_deposit > span.ico_partner2{content: ""; position: absolute; top:7.5rem; right:1.2rem; background-image: url(/msbiz/app/img/etc/ico_partner03.png); background-size:8.2rem 9.6rem;}
+.banner_deposit > span.ico_partner1{content: ""; position: absolute; top:2.8rem; right:0; background-image: url(/front/app/img/etc/ico_partner02.png); background-size:8.2rem 9.6rem;}
+.banner_deposit > span.ico_partner2{content: ""; position: absolute; top:7.5rem; right:1.2rem; background-image: url(/front/app/img/etc/ico_partner03.png); background-size:8.2rem 9.6rem;}
 .banner_deposit .txt{margin-bottom:2.2rem; font-size:1.6rem; font-weight: 700 !important;}
 .banner_deposit .txt > span.sub_tit{display:block; padding-bottom:1.7rem;font-size:1.4rem; color:var(--fc_02, #26282c);}
 .banner_deposit .txt > span.bank_num{font-size:1.7rem; font-weight: 700 !important;}
@@ -417,14 +417,14 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .etc_rdoChk_item.col3 li {width:33.3%; padding:0 0.6rem;}
 
 .etc_result {margin:0;padding-top:6rem;text-align:center;}
-.etc_result > p.ico_empty{content:''; display:block; width:8rem; height:8rem; margin:0 auto; background:url(/msbiz/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto; background-position:0 -18rem;background-color:var(--bg_02, #f7f7f8); border-radius:50%; -webkit-border-radius:50%;}
+.etc_result > p.ico_empty{content:''; display:block; width:8rem; height:8rem; margin:0 auto; background:url(/front/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto; background-position:0 -18rem;background-color:var(--bg_02, #f7f7f8); border-radius:50%; -webkit-border-radius:50%;}
 .etc_result .tit {margin-top:3.2rem; font-size:1.8rem; color:var(--fc_02, #26282c); }
 .etc_result .txt{margin-top:1.6rem;font-size:1.5rem; color:var(--fc_04, #696e76);}
 .result .etc_txt {margin-top:3.2rem; font-size:1.8rem; color:var(--fc_02, #26282c);}
 
 .etc_detail{padding:4rem 0 0; text-align: center;}
 .etc_detail .top_img{ width:8rem; height:8rem; margin:0 auto; background-color:var(--bg_02, #f7f7f8); border-radius:50%; -webkit-border-radius:50%;}
-.etc_detail .top_img > span{content:''; display:block; width:8rem; height:8rem; margin-right: 1.6rem; background:url(/msbiz/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto;}
+.etc_detail .top_img > span{content:''; display:block; width:8rem; height:8rem; margin-right: 1.6rem; background:url(/front/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto;}
 .etc_detail .top_img > span.icon-bullet01{background-position:0 0;}
 .etc_detail .top_img > span.icon-bullet02{background-position:-9rem 0;}
 .etc_detail .top_img > span.icon-bullet03{background-position:-18rem 0;}
@@ -438,7 +438,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .etc_detail .top_img > span.icon-bullet11{background-position:0 -18rem;}
 
 .etc_detail .tit{margin-top:2rem; font-size: 2.4rem; color:var(--fc_02, #26282c); font-weight: 700 !important;}
-.etc_detail .tit .ico_write{width:2.3rem; height:2.3rem; background:url(/msbiz/app/img/etc/ico_write.png) center center no-repeat; background-size:2.3rem;vertical-align: inherit;}
+.etc_detail .tit .ico_write{width:2.3rem; height:2.3rem; background:url(/front/app/img/etc/ico_write.png) center center no-repeat; background-size:2.3rem;vertical-align: inherit;}
 .etc_detail .txt{font-size: 1.4rem;color:var(--fc_04, #696e76);}
 
 .etc_h2{margin:1.4rem 0 2rem;font-size:2.4rem; color:var(--fc_02, #26282c); vertical-align:middle;font-weight:400;}
@@ -450,7 +450,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 
 .list_link li > .etc {display:table;width:100%; padding:1.8rem 0 3.2rem;} 
 .list_link li > .etc .list_cont{display: flex;}
-.list_link li > .etc .list_cont > span{content:''; display:block; width:4rem; height:4rem; margin-right: 1rem; background:url(/msbiz/app/img/etc/spr_ico_renton.png) no-repeat; background-size: 45rem auto;}
+.list_link li > .etc .list_cont > span{content:''; display:block; width:4rem; height:4rem; margin-right: 1rem; background:url(/front/app/img/etc/spr_ico_renton.png) no-repeat; background-size: 45rem auto;}
 .list_link li > .etc .list_cont > span.icon-bullet01{background-position:0 0;}
 .list_link li > .etc .list_cont > span.icon-bullet02{background-position:-7rem 0;}
 .list_link li > .etc .list_cont > span.icon-bullet03{background-position:-14rem 0;}
@@ -533,7 +533,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .acc_list_wrap.etc_rent_list .acc_pannel .hr_divde_rent{height:.05rem; margin-left:2rem; border:0; background:var(--fc_09, #ebeef0); }
 
 .acc_list_wrap.etc_rent_list .acc_pannel .acc_cont{display: flex;}
-.acc_list_wrap.etc_rent_list .acc_pannel .acc_cont > span{content:''; display:block; width:4rem; min-width:4rem; height:4rem; margin-right:1rem; background:url(/msbiz/app/img/etc/spr_ico_renton.png) no-repeat; background-size: 45rem auto;}
+.acc_list_wrap.etc_rent_list .acc_pannel .acc_cont > span{content:''; display:block; width:4rem; min-width:4rem; height:4rem; margin-right:1rem; background:url(/front/app/img/etc/spr_ico_renton.png) no-repeat; background-size: 45rem auto;}
 .acc_list_wrap.etc_rent_list .acc_pannel .acc_cont > span.icon-bullet01{background-position:0 0;}
 .acc_list_wrap.etc_rent_list .acc_pannel .acc_cont > span.icon-bullet02{background-position:-7rem 0;}
 .acc_list_wrap.etc_rent_list .acc_pannel .acc_cont > span.icon-bullet03{background-position:-14rem 0;}
@@ -576,10 +576,10 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .etc_retirement_chart .chart::before, .etc_retirement_chart .chart > .bar{position:absolute;top:0;left:0;height:2.0rem;border-radius:2.0rem}
 .etc_retirement_chart .chart > .bar{min-width:2.0rem;width:0;background-color:#ffd237;border:1px solid #ffd237;transition:width 2.6s linear}
 .etc_retirement_chart .chart > .bar.zero{display:none}
-.etc_retirement_chart .chart > .bar .etc_img_chart{position:absolute;bottom:1.0rem;right:-1.0rem;width:4.0rem;height:5.0rem;background:url(/msbiz/app/img/etc/spr_tree.png) 0 0 no-repeat;background-size:180.0rem 5.0rem;animation:treeRun .8s steps(30, end) infinite}
+.etc_retirement_chart .chart > .bar .etc_img_chart{position:absolute;bottom:1.0rem;right:-1.0rem;width:4.0rem;height:5.0rem;background:url(/front/app/img/etc/spr_tree.png) 0 0 no-repeat;background-size:180.0rem 5.0rem;animation:treeRun .8s steps(30, end) infinite}
 .etc_retirement_chart .chart > .bar .etc_img_chart.stop{animation:treeEnd .4s steps(14, end) forwards}
 .ui_confetti_coin{display:block;position:absolute;left:50%;top:50%;width:2rem;height:2rem;margin:-1.0rem 0 0 -1.0rem;pointer-events:none;animation:coinGravity 1s ease-in backwards}
-.ui_confetti_coin i{position:absolute;width:100%;height:100%;background:url(/msbiz/app/img/etc/confetti_coin.png) no-repeat center center/contain;animation:coinBang 1s forwards,coinBangSize 1s forwards}
+.ui_confetti_coin i{position:absolute;width:100%;height:100%;background:url(/front/app/img/etc/confetti_coin.png) no-repeat center center/contain;animation:coinBang 1s forwards,coinBangSize 1s forwards}
 @keyframes treeRun {
   0%{background-position:0 0}
   100%{background-position:-120.0rem 0}
@@ -635,7 +635,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 
 .rent_list_link li > .inr {display: flex; margin:1rem 0 .5rem;} 
 .rent_list_link li > .inr > span{padding:1.8rem 3.5rem 1.8rem 0}
-.rent_list_link li > .inr > span:first-child{content:''; display:block; width:4rem; height:4rem; margin-top:.9rem; margin-right:1rem; background:url(/msbiz/app/img/etc/spr_ico_renton.png) no-repeat; background-size: 45rem auto;}
+.rent_list_link li > .inr > span:first-child{content:''; display:block; width:4rem; height:4rem; margin-top:.9rem; margin-right:1rem; background:url(/front/app/img/etc/spr_ico_renton.png) no-repeat; background-size: 45rem auto;}
 .rent_list_link li > .inr > span.icon-build01{background-position:0 -14.5rem;}
 .rent_list_link li > .inr > span.icon-build02{background-position:-4rem -14.5rem;}
 .rent_list_link li > .inr > span.icon-build03{background-position:-8rem -14.5rem;}
@@ -647,7 +647,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .rent_list_link li > .inr > span.icon-build09{background-position:-32rem -14.5rem;}
 .rent_list_link li > .inr > span.icon-build10{background-position:-36rem -14.5rem;}
 
-.rent_list_link li > .inr > span.ico_notice{width:3.2rem;height:3.2rem; margin-top:1rem; margin-right:1.2rem; background:url(/msbiz/app/img/etc/icon_renton_info.png) center center no-repeat; background-size:3.2rem 3.2rem; }
+.rent_list_link li > .inr > span.ico_notice{width:3.2rem;height:3.2rem; margin-top:1rem; margin-right:1.2rem; background:url(/front/app/img/etc/icon_renton_info.png) center center no-repeat; background-size:3.2rem 3.2rem; }
 .rent_list_link li > .inr > .rent_txt{padding-right:0; font-size:1.6rem; font-weight:700 !important; color:var(--fc_02, #26282c); }
 .rent_list_link li > .inr > .none{font-size:1.6rem; font-weight:700 !important; color:var(--fc_06, #aab0b8);}
 .rent_list_link li > .inr > .btn_link {position:absolute; right:0; top:50%; display:block; min-width:4rem; height:5rem; margin-top:-2.5rem; right:0; margin-top: 0; border:0; transform:translateY(-50%);}
@@ -685,11 +685,11 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 /* 220914 : 임대물 기본 정보 ico */
 /* .etc_detail{padding:4.8rem 0 0;} */
 .etc_detail .icon-preview{width:8rem; height:8rem; margin:0 auto; margin-bottom:2rem;}
-.etc_detail .icon-preview > span{content:''; display:block; width:8rem; height:8rem; margin-right: 1.6rem; background:url(/msbiz/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto;}
+.etc_detail .icon-preview > span{content:''; display:block; width:8rem; height:8rem; margin-right: 1.6rem; background:url(/front/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto;}
 
 .etc_detail .icon-wrap .icon { position: relative; display: inline-block; width: 8.5rem; height: 8rem; border-radius: 50%; border: none; overflow: hidden; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); }
 .etc_detail .icon-wrap .icon span[class ^= "icon-build"], 
-.etc_detail .icon-preview .icon span[class ^= "icon-build"] {display: inline-block; width:8rem; height:8rem; background:url(/msbiz/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto; }
+.etc_detail .icon-preview .icon span[class ^= "icon-build"] {display: inline-block; width:8rem; height:8rem; background:url(/front/app/img/etc/spr_ico_renton_160.png) no-repeat; background-size: 45rem auto; }
 .etc_detail .icon-preview .icon span.icon-build01{background-position:0 0;background-color: var(--bg_02, #f7f7f8);border-radius: 50%;}
 .etc_detail .icon-preview .icon span.icon-build02{background-position:-9rem 0;background-color: var(--bg_02, #f7f7f8);border-radius: 50%;}
 .etc_detail .icon-preview .icon span.icon-build03{background-position:-18rem 0;background-color: var(--bg_02, #f7f7f8);border-radius: 50%;}
@@ -759,7 +759,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .roulette_wrap .txt {font-size:1.8rem;}
 .roulette_wrap .btn_cnt_wrap {margin-top:0;}
 .roulette_wrap .roulette_area {position:relative; text-align:center;}
-.roulette_wrap .roulette_area .plate {width:32.7rem; height:36.7rem; margin:0 auto; padding:4.6rem .5rem 0 0; background:url(/msbiz/app/img/etc/bg_roulette.png) -.2rem 0 no-repeat; background-size:32.7rem auto;}
+.roulette_wrap .roulette_area .plate {width:32.7rem; height:36.7rem; margin:0 auto; padding:4.6rem .5rem 0 0; background:url(/front/app/img/etc/bg_roulette.png) -.2rem 0 no-repeat; background-size:32.7rem auto;}
 .roulette_wrap .roulette_area .plate img {width:27.3rem;}
 .roulette_wrap .roulette_area .pin {position:absolute; top:1.6rem; left:50%; width:3.8rem; margin-left:-1.9rem;}
 .roulette_wrap .btn.primary.lg {height:5rem; font-weight:700; line-height:5rem;}
@@ -774,7 +774,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 /* 혜택>이벤트>쿠폰함 */
 .inter_bridge .bridge_result {padding:11.2rem 0 6rem; margin:0 2.4rem; text-align:center;}
 .inter_bridge .bridge_result.coupon {padding-top:8rem;}
-.inter_bridge .bridge_result.coupon::after {content:''; display:block; width:100%; max-width:27.5rem; height:20.3rem; margin:0 auto; background:url(/msbiz/app/img/etc/img_bridge_coupon.png) no-repeat; background-size:100%;} /* 쿠폰함 */
+.inter_bridge .bridge_result.coupon::after {content:''; display:block; width:100%; max-width:27.5rem; height:20.3rem; margin:0 auto; background:url(/front/app/img/etc/img_bridge_coupon.png) no-repeat; background-size:100%;} /* 쿠폰함 */
 .inter_bridge .bridge_result.coupon .tit {margin-bottom:2.8rem;}
 .inform_btm_wrap.fix_bottom {position:fixed; bottom:0; left:0; right:0; padding-bottom:3.2rem;}
 
@@ -786,15 +786,15 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 .list_data .score_wrap .num_unit {font-size:2.4rem; font-weight:700; color:#287eff; vertical-align:.2rem;}
 
 /* 혜택>비즈니스인사이트 */
-.visual_info:after {content:''; display:block; width:32.7rem; height:13.6rem; margin:0 auto 1.5rem; background:url(/msbiz/app/img/etc/visual_pay.png) no-repeat; background-size:32.7rem auto;}
+.visual_info:after {content:''; display:block; width:32.7rem; height:13.6rem; margin:0 auto 1.5rem; background:url(/front/app/img/etc/visual_pay.png) no-repeat; background-size:32.7rem auto;}
 .card_wrap {margin-top:4rem;}
 .card_pay {position:relative; width:100%; margin-top:2.4rem; border:1px solid #dde1e4; border-radius:.8rem; padding:2.4rem; box-shadow:.1rem .6rem .6rem #efefef;}
 .card_pay .h3 {margin:0;}
 .card_pay .form_group {margin-top:1rem;}
 .card_pay .form_group + .rdoChk_box {margin-top:1.8rem;}
 .card_pay .btn_card_close {display:block; position:absolute; top:1.7rem; right:1.7rem; width:3.4rem; height:3.4rem; font-size:0;}
-.card_pay .btn_card_close::before {content:''; display:block; width:2rem; height:2rem; margin-left:.7rem; background:url(/msbiz/app/img/common/spr_ico_20x.png) no-repeat -8rem 0; background-size: 25rem auto;}
-.list_icon.mng_support li::before {content:''; display:block; width:4rem; height:4rem; background:url(/msbiz/app/img/etc/spr_ico_benefit.png) no-repeat; background-size: 25rem auto;}
+.card_pay .btn_card_close::before {content:''; display:block; width:2rem; height:2rem; margin-left:.7rem; background:url(/front/app/img/common/spr_ico_20x.png) no-repeat -8rem 0; background-size: 25rem auto;}
+.list_icon.mng_support li::before {content:''; display:block; width:4rem; height:4rem; background:url(/front/app/img/etc/spr_ico_benefit.png) no-repeat; background-size: 25rem auto;}
 .list_icon.mng_support li.item1:before {background-position:-20rem 0;}
 .list_icon.mng_support li.item2:before {background-position:0 0;}
 .list_icon.mng_support li.item3:before {background-position:-4rem 0;}
@@ -817,7 +817,7 @@ h2.tit{margin-bottom:2rem; font-weight:400; color:var(--fc_02, #26282c); vertica
 
 /* KB카드 */
 .list_link.make_card li a {position:relative; padding-left:4.8rem;}
-.list_link.make_card li a::before {content:''; display:inline-block; position:absolute; top:50%; left:0; width:4rem; height:4rem; margin-top:-2rem; background:url(/msbiz/app/img/etc/ico_make_card.png) no-repeat 0 0 / 20rem auto;}
+.list_link.make_card li a::before {content:''; display:inline-block; position:absolute; top:50%; left:0; width:4rem; height:4rem; margin-top:-2rem; background:url(/front/app/img/etc/ico_make_card.png) no-repeat 0 0 / 20rem auto;}
 .list_link.make_card li:nth-child(2) a::before {background-position:-4.2rem 0;}
 .list_link.make_card li > a.link{padding: 2.8rem 3.5rem 2.8rem 5.5rem;}
 .list_link.make_card li:first-child > a.link{padding-top: 2.8rem;}
