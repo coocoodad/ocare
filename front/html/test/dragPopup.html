@@ -93,7 +93,7 @@
                     <h2 style="text-align:center">Profile</h2>
                 </div>
                 <div class="kb_sec_content">
-                    <div style="width:100px;height:100px;margin:30px auto 0;overflow:hidden;border-radius:100%">
+                    <div class="ani-block" style="width:100px;height:100px;margin:30px auto 0;overflow:hidden;border-radius:100%">
                         <img src="/front/html/test/coocoo.jpg" alt="" />
                     </div>
                     <div class="ani-block" style="margin-top:20px;text-align:center;color:#fff">
@@ -214,5 +214,12 @@
             });
         }, 300);
     };
+
+    $(window).scroll(function () {
+        if($(window).scrollTop() < $('.drag_wrap').height()) {
+            let $minScale = Math.max(0, 1 - ($(window).scrollTop()/100));
+            $('.drag_wrap').css('transform', 'transform-origin:0 100% scale(' + $minScale + ')');
+        }
+    });
 </script>
 </html>
