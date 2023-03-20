@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" data-description="공통 요소별 스타일" href="/msbiz/app/css/common.css">
+    <link rel="stylesheet" data-description="운영 공통 적용 스타일" href="/msbiz/app/css/style.css">
+    <style>
+        .step_wrap .list_top_wrap .step {display: table-cell;}
+        .agree_wrap {margin-top: 2.8rem; padding: 0 2.4rem 0;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="content">
+            <div class="step_wrap js_step">
+                <div class="list_top_wrap">
+                    <button type="button" class="btn_ico_34 col"><i class="ico_24_arrowback"></i><span class="hidden">이전</span></button>
+                    <div class="step col" role="img" aria-label="총 M단계 중 현재 N단계">
+                        <span class="current">N</span><span class="mark">/</span><span class="total">M</span>
+                    </div>
+                </div>
+                <h1 class="h1">약관을 읽고<br>동의해주세요.</h1>
+            </div>
+            <div class="agree_wrap multi">
+                <div class="agree_total">
+                    <span class="selection">
+                        <input type="checkbox" id="checkType1" class="chk_all">
+                        <label for="checkType1" class="label"><em>약관에 모두 동의</em></label>
+                    </span>
+                    <button type="button" class="btn btn_link" title="약관 전체동의"><span class="hidden">바로가기</span></button>
+                </div>
+                <ul class="agree_list">
+                    <li><!-- 바로가기버튼(btn_link)가 없을 경우에는 nolink 클래스 넣어주세요 -->
+                        <span class="selection chk">
+                            <input type="checkbox" id="checkType1_1">
+                            <label for="checkType1_1" class="label"><em>[필수] Tune H 필수 항목 모두 동의 </em></label>
+                        </span>
+                        <button type="button" class="btn btn_link" title="[필수] 고유식별정보 처리 동의 "><span class="hidden">바로가기</span></button>
+                    </li>
+                    <li>
+                        <span class="selection chk">
+                            <input type="checkbox" id="checkType1_2">
+                            <label for="checkType1_2" class="label"><em>[선택] 위치정보 약관동의(GPS 사용) </em></label>
+                        </span>
+                        <button type="button" class="btn btn_link" title="[필수] 통신사 이용약관 동의 "><span class="hidden">바로가기</span></button>
+                    </li>
+                    <li>
+                        <span class="selection chk">
+                            <input type="checkbox" id="checkType1_3">
+                            <label for="checkType1_3" class="label"><em>[선택] 프로모션 및 마케팅 정보 메시지 전체 동의 </em></label>
+                        </span>
+                        <button type="button" class="btn btn_link" title="[필수] 휴대폰본인확인 개인정보수집이용 동의 "><span class="hidden">바로가기</span></button>
+                    </li>
+                    <li>
+                        <span class="selection chk">
+                            <input type="checkbox" id="checkType1_4">
+                            <label for="checkType1_4" class="label"><em>[선택] 결제, Tune Point, 환불 규정 전체 동의 </em></label>
+                        </span>
+                        <button type="button" class="btn btn_link" title="[필수] 휴대폰본인확인 개인정보수집이용 동의 "><span class="hidden">바로가기</span></button>
+                    </li>
+                </ul>
+                <div class="btn_confirm_wrap">
+                    <div class="btn_area">
+                        <span><button type="button" class="btn primary lg">다음</button></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

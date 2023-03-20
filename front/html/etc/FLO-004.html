@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLO-004</title>
+    <link rel="stylesheet" data-description="공통 요소별 스타일" href="/msbiz/app/css/common.css">
+    <link rel="stylesheet" data-description="운영 공통 적용 스타일" href="/msbiz/app/css/style.css">
+    <style>
+        .step_wrap .list_top_wrap .step {display: table-cell;}
+        .form_group {padding: 0 2.4rem 0;}
+        .form_row {margin-bottom: 1rem;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="content">
+            <div class="step_wrap js_step">
+                <div class="list_top_wrap">
+                    <button type="button" class="btn_ico_34 col"><i class="ico_24_arrowback"></i><span class="hidden">이전</span></button>
+                    <div class="step col" role="img" aria-label="총 M단계 중 현재 N단계">
+                        <span class="current">N</span><span class="mark">/</span><span class="total">M</span>
+                    </div>
+                </div>
+                <h1 class="h1">이메일 주소를<br>입력해주세요.</h1>
+            </div>
+            <div class="form_group js_trans">
+                <div class="form_row">
+                    <div class="input">
+                        <input type="text" placeholder="이메일 주소" title="타이틀명">
+                    </div>
+                </div>   
+                <button type="button" class="btn outline md round">이메일 인증</button>
+            </div>
+            <div class="btn_confirm_wrap">
+                <div class="btn_area">
+                    <span><button type="button" class="btn primary lg">다음</button></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
