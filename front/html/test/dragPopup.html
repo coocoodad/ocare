@@ -186,6 +186,7 @@
     });
 
     var dragPopOpen = function(tar){
+        $dragWrap.removeAttr('style');
         $dragPopWrap.addClass('full').css({
             'height': '100%',
             'transition': 'width .4s ease-out, height .4s ease-out, border-radius .4s ease-out, background-color .4s ease-out'
@@ -218,7 +219,7 @@
     $(window).scroll(function () {
         if($(window).scrollTop() < $('.drag_wrap').height()) {
             let $minScale = Math.max(0, 1 - ($(window).scrollTop()/100));
-            $('.drag_wrap').css('transform', 'transform-origin:0 100% scale(' + $minScale + ')');
+            $('.drag_wrap').css({'transform':'scale(' + $minScale + ')', 'transform-origin':'100% 100%'});
         }
     });
 </script>
