@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" data-description="공통 요소별 스타일" href="/front/app/css/common.css">
+    <link rel="stylesheet" data-description="운영 공통 적용 스타일" href="/front/app/css/style.css">
+    <script src="/front/app/js/library/jquery-3.3.1-min.js"></script>
+    <script src="/front/app/js/library/jquery-ui.min.js"></script>
+    <script src="/front/app/js/library/swiper.min.js"></script>
+    <script src="/front/app/js/common_ui.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="content" class="cate_etc">
+            <div class="section">
+                <h1 class="h1">팝업 테스트.</h1>
+                <div class="form_btm_full_wrap">
+                    <span><button type="button" class="btn secondary md" onclick="UICommon.Layer.open('#testPop');">팝업 버튼</button></span>
+                </div>
+            </div>
+            <div id="testPop" class="popup bottom" role="dialog" aria-hidden="true">
+                <article class="pop_wrap">
+                    <div class="pop_head">
+                        <div>
+                            <h1>제목</h1>
+                        </div>
+                    </div>
+                    <div class="pop_body">
+                        <div class="pop_section">
+                            팝업 콘텐츠 영역
+                        </div>
+                    </div>
+                    <div class="pop_foot">
+                        <div>
+                            <div class="btn_area">
+                                <span><button type="button" class="btn secondary lg" data-action="close">취소</button></span>
+                                <span><button type="button" class="btn primary lg ui_pop_close">확인</button></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="pop_close ui_pop_close" aria-label="팝업창 닫기"></button>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
