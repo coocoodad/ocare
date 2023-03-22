@@ -1,0 +1,81 @@
+@charset "utf-8"; 
+
+@font-face {
+    font-family:'KBText';font-style:normal;font-weight:400;    
+	src:url('fonts/kbfg_text_l.otf') format('opentype'), url('fonts/kbfg_text_l.woff') format('woff');
+}
+@font-face {
+    font-family:'KBText';font-style:normal;font-weight:700;    
+	src:url('fonts/kbfg_text_b.otf') format('opentype'), url('fonts/kbfg_text_b.woff') format('woff'); 
+}
+
+:root {
+    font-size:62.5%;
+    --primary: #ffd338;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    font-family:'KBText';
+}
+
+#content {margin: 2.4rem;}
+
+h1 {font-size: 2.5rem;}
+
+form {
+    margin: 1rem 0;
+}
+
+input {
+    display: block;
+    border-radius: 3.5rem;
+    outline: none;
+    z-index: 1000;
+    background: transparent;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    font-size: 1.6rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0);
+}
+
+input:focus {
+    border-color: var(--primary);
+}
+
+.password,
+.input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+label {
+    font-size: 1.6rem;
+    margin: 1rem 1.5rem;
+    position: absolute;
+}
+
+input:focus~label {
+    font-size: 1.3rem;
+    margin-top: -2.2rem;
+    z-index: 1000;
+    background: #fff;
+}
+
+input:not(:placeholder-shown)
++ label {
+    font-size: 1.3rem;
+    margin-top: -2.2rem;
+    z-index: 1000;
+    background: #fff;
+}
