@@ -1,0 +1,136 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* reset */
+* {outline: 0; font-family: 'Noto Sans KR', sans-serif;}
+html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {margin:0;padding:0;}
+html,body {width:100%;}
+body {background: var(--bg01); color: var(--fc01); overflow-x: hidden;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+button {border: none; background: none;}
+
+#wrap {width: 100%;}
+.hidden {display: block; width: 0; height: 0; margin: 0; padding: 0; font-size: 0; color: transparent; overflow: hidden;}
+
+:root {
+    font-size:62.5%;
+    --fc01: #26282c;
+    --fc02: #FFFFFF;
+    --fc03: #8C949E;
+    --fc04: #929395;
+    --bg01: #F3F6F8;
+    --bg02: #FFE55C;
+    --bg03: #8477FF;
+    --bg04: #eef5f5;
+    --bg05: #FAF7EE;
+    --bg06: #F05F31;
+    --bg07: #1085B3;
+    --bg08: #F27F15;
+    --bg09: #DDE1E4;
+}
+
+/* header */
+header {width: 100%; height: 3.2rem; margin-top: 4rem; line-height: 3.2rem;}
+header .innerWrap {width: 100%; height: 3.2rem; display: flex; padding: 0 2.4rem; box-sizing: border-box;}
+header .innerWrap .headerBtn {display: flex; justify-content: center; align-items: center;}
+header .innerWrap .left {width: 100%; display: flex;}
+header .innerWrap .left h1 {font-size: 1.6rem; margin-right: 0.8rem;}
+header .innerWrap .left .myPage {width: 5.3rem; height: 2.2rem; font-size: 1.2rem; text-align: center; line-height: 2.2rem; background: var(--fc02); border-radius: 0.4rem;}
+header .innerWrap .headerBtn .menu {width: 2.2rem; height: 2rem; background: url(/front/app/img/etc/ohealth.png) 0 0 no-repeat; background-size: 46.6rem 4.9rem;}
+
+/* content */
+#content {width: 100%; padding: 0 1rem; box-sizing: border-box; margin-top: 1.5rem; position: relative;}
+
+/* main */
+.main {width: 100%; height: 49.7rem; border-radius: 4.8rem; background: var(--bg02); position: relative;}
+.main a {width: 100%; height: 100%; display: block;}
+.main .mainText {width: 100%; padding-top: 7.3rem; padding-left: 3.2rem; box-sizing: border-box;}
+.main .mainText .title {font-size: 3.5rem; line-height: 1.3;}
+.main .mainText .text {margin-top: 0.8rem; font-size: 1.6rem; line-height: 1.3;}
+.main .mainImg {width: 30.1rem; position: absolute; top: 0; right: -0.5rem;}
+.main .mainImg img {width: 100%;}
+
+/* record */
+.record {width: 100%; margin-top: 1rem; padding: 5.6rem 2.4rem; box-sizing: border-box; border-radius: 4.8rem 4.8rem 0 0; background: var(--fc02);}
+
+.record .textWrap {width: 100%;}
+.record .textWrap .title {font-size: 2.4rem; margin-bottom: 0.4rem;}
+.record .textWrap .text {font-size: 1.6rem; color: var(--fc04);}
+
+.record .weekList {width: 100%; margin: 3.2rem 0 5.4rem; text-align: center;}
+.record .weekList ul {width: 100%; display: flex; justify-content: space-between;}
+.record .weekList .day {font-size: 1.6rem; margin-bottom: 2rem; color: var(--fc04);}
+.record .weekList .date {font-size: 1rem; font-weight: 500;}
+
+.record .boxList {width: 100%; margin-bottom: 3.2rem;}
+.record .boxList .box {width: 100%; border-radius: 2.4rem; }
+.record .boxList .box a {display: block; width: 100%; height: 100%; padding: 2rem 1.6rem; box-sizing: border-box;}
+.record .boxList .box.blue {background: var(--bg04); margin-bottom: 0.4rem;}
+.record .boxList .box.orange {background: var(--bg05);}
+.record .boxList .box .topWrap {width: 100%; height: 4rem; display: flex; justify-content: space-between; line-height: 4rem;}
+.record .boxList .box .topWrap .titleWrap {display: flex;}
+.record .boxList .box .topWrap .titleWrap .icon {width: 4rem; height: 4rem; margin-right: 0.4rem;}
+.record .boxList .box.blue .topWrap .titleWrap .icon {background: url(/front/app/img/etc/ohealth.png) -2.6rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.record .boxList .box.orange .topWrap .titleWrap .icon {background: url(/front/app/img/etc/ohealth.png) -7rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.record .boxList .box .topWrap .titleWrap .title {font-size: 2rem;}
+.record .boxList .box .topWrap .badgeWrap {display: flex;  align-items: center;}
+.record .boxList .box .topWrap .badgeWrap .badge {width: 3.3rem; height: 2.2rem; font-size: 1.2rem; color: #fff; text-align: center; line-height: 2.2rem; border-radius: 0.2rem;}
+.record .boxList .box .topWrap .badgeWrap .badge.m {background: var(--bg06); margin-right: 0.4rem;}
+.record .boxList .box .topWrap .badgeWrap .badge.d {background: var(--bg07);}
+.record .boxList .box .topWrap .badgeWrap .badge.l {background: var(--bg08);}
+.record .boxList .box .text {font-size: 1.6rem; color: var(--fc04); margin-top: 1rem;}
+
+/* buttonWrap */
+.buttonWrap {width: 100%;}
+.buttonWrap .more {width: 10.9rem; height: 3.6rem; display: block; margin: 0 auto 6rem; border: 1px solid var(--bg09); border-radius: 2rem;}
+
+.record .menuList {width: 100%;}
+.record .menuList ul {display: flex; justify-content: space-between;}
+.record .menuList ul li {padding: 0 1rem;}
+.record .menuList ul li .icon {width: 4rem; height: 4rem; display: block; margin: 0 auto;}
+.record .menuList ul li:nth-child(1) .icon {background: url(/front/app/img/etc/ohealth.png) -11.4rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.record .menuList ul li:nth-child(2) .icon {background: url(/front/app/img/etc/ohealth.png) -15.8rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.record .menuList ul li:nth-child(3) .icon {background: url(/front/app/img/etc/ohealth.png) -20.2rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.record .menuList ul li:nth-child(4) .icon {background: url(/front/app/img/etc/ohealth.png) -24.6rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.record .menuList ul li .name {font-size: 1.6rem; margin-top: 0.4rem;}
+
+/* news */
+.news {width: 100%; margin-top: 1rem; padding: 2.4rem 2.4rem 5.6rem; box-sizing: border-box; background: var(--fc02);}
+
+.news .tabList {width: 100%; display: flex; justify-content: space-between;}
+.news .tabList .tab {font-size: 1.3rem; padding: 1.2rem 1.6rem; border-radius: 6rem; color: var(--fc04); background: var(--bg01);}
+.news .tabList .tab.on {color: var(--fc02); background: var(--fc01);}
+
+.news .tabPanel {width: 100%; padding-top: 5.6rem; display: none;}
+.news .tabPanel.on {display: block;}
+.news .tabPanel .section {width: 100%;}
+.news .tabPanel .section .title {width: 100%; font-size: 2.4rem;}
+
+.news .swiper-container {margin: 3.2rem -2.4rem;}
+.news .swiper-container .swiper {padding: 0 2.4rem;}
+.news .swiper-container .swiper .swiper-slide {width: 30.7rem; margin-right: 0.8rem;}
+.news .swiper-container .swiper a {display: block; width: 100%; height: 100%;}
+.news .swiper-container .swiper .img {width: 100%; border-radius: 2.8rem; overflow: hidden;}
+.news .swiper-container .swiper .img img {width: 100%;}
+.news .swiper-container .swiper .textWrap {width: 100%; margin-top: 1.6rem;}
+.news .swiper-container .swiper .textWrap .title {font-size: 2rem; font-weight: 500; margin-bottom: 0.8rem;}
+.news .swiper-container .swiper .textWrap .text {font-size: 1.5rem; word-break: break-all;}
+
+/* btmMenu */
+.btmMenu {width: 100%; position: fixed; bottom: 0; left: 0; z-index: 1000;}
+.btmMenu .innerWrap {width: 100%; border-radius: 4.4rem; background:var(--fc02); border: 0.1rem solid var(--bg09); padding: 2rem 4rem 2.6rem; box-sizing: border-box;}
+.btmMenu .innerWrap .menuList {width: 100%; display: flex; justify-content: space-between;}
+
+.btmMenu .innerWrap .menuList button {width: 4.8rem;}
+.btmMenu .innerWrap .menuList button .icon {display: block; margin: 0 auto;}
+.btmMenu .innerWrap .menuList button .home {width: 2.8rem; height: 2.8rem; background: url(/front/app/img/etc/ohealth.png) -29rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.btmMenu .innerWrap .menuList button .health {width: 2.8rem; height: 2.8rem; background: url(/front/app/img/etc/ohealth.png) -32.2rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.btmMenu .innerWrap .menuList button .plus {width: 4.8rem; height: 4.8rem; background: url(/front/app/img/etc/ohealth.png) -41.8rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.btmMenu .innerWrap .menuList button .program {width: 2.8rem; height: 2.8rem; background: url(/front/app/img/etc/ohealth.png) -35.4rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+.btmMenu .innerWrap .menuList button .benefit {width: 2.8rem; height: 2.8rem; background: url(/front/app/img/etc/ohealth.png) -38.6rem 0 no-repeat; background-size: 46.6rem 4.9rem;}
+
+.btmMenu .innerWrap .menuList button .text {display: block; font-size: 1.2rem; margin-top: 0.2rem;}

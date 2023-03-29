@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/front/app/css/ohealth.css">
+    <link rel="stylesheet" href="/front/app/css/library/swiper.min.css">
+    <script src="/front/app/js/library/jquery-3.3.1-min.js"></script>
+    <script src="/front/app/js/library/swiper.min.js"></script>
+    <script src="/front/app/js/ohealth.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="innerWrap">
+                <div class="left">
+                    <h1>오헬스</h1>
+                    <div class="headerBtn">
+                        <button class="myPage" type="button" aria-label="마이복약">마이복약</button>
+                    </div>
+                </div>
+                <div class="headerBtn">
+                    <button class="menu" type="button" aria-label="메뉴"></button>
+                </div>
+            </div>
+        </header>
+        <div id="content">
+            <div class="main">
+                <a href="#">
+                    <div class="mainText">
+                        <h3 class="title">오케어가<br>알려드려요!</h3>
+                        <p class="text">오케어가 오케어가<br>오케어가 오케<br>알려드려요!</p>
+                    </div>
+                    <div class="mainImg">
+                        <img src="/front/app/img/etc/ohealth_main.png" alt="오케어가 알려드려요!">
+                    </div>
+                </a>
+            </div>
+            <div class="record">
+                <div class="textWrap">
+                    <h3 class="title">데일리 복약 기록</h3>
+                    <p class="text">어떤 목적으로 방문하셨나요 어떤 목적으로</p>
+                </div>
+                <div class="weekList">
+                    <ul>
+                        <li>
+                            <p class="day">월</p>
+                            <p class="date">00</p>
+                        </li>
+                        <li>
+                            <p class="day">화</p>
+                            <p class="date">00</p>
+                        </li>
+                        <li>
+                            <p class="day">수</p>
+                            <p class="date">00</p>
+                        </li>
+                        <li>
+                            <p class="day">목</p>
+                            <p class="date">00</p>
+                        </li>
+                        <li>
+                            <p class="day">금</p>
+                            <p class="date">00</p>
+                        </li>
+                        <li>
+                            <p class="day">토</p>
+                            <p class="date">00</p>
+                        </li>
+                        <li>
+                            <p class="day">일</p>
+                            <p class="date">00</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="boxList">
+                    <div class="box blue"><a href="#" role="button">
+                        <div class="topWrap">
+                            <div class="titleWrap">
+                                <i class="icon"></i>
+                                <p class="title">종합감기</p>
+                            </div>
+                            <div class="badgeWrap">
+                                <div class="badge m">아침</div>
+                                <div class="badge d">저녁</div>
+                            </div>
+                        </div>
+                        <p class="text">아침, 점심, 저녁, 식후아침, 점심, 저녁, 식후 아침, 점심, 저녁 식후</p>
+                    </a></div>
+                    <div class="box orange"><a href="#" role="button">
+                        <div class="topWrap">
+                            <div class="titleWrap">
+                                <i class="icon"></i>
+                                <p class="title">대상포진</p>
+                            </div>
+                            <div class="badgeWrap">
+                                <div class="badge l">점심</div>
+                            </div>
+                        </div>
+                    </a></div>
+                </div>
+                <div class="buttonWrap">
+                    <button class="more" type="button" aria-label="더보기">더보기</button>
+                </div>
+                <div class="menuList">
+                    <ul>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="name">영양제</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="name">복약지도</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="name">복약루틴</p>
+                        </li>
+                        <li>
+                            <i class="icon"></i>
+                            <p class="name">비급여 약</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="news">
+                <div class="tabList" role="tablist">
+                    <button type="button" class="tab on" role="tab" aria-controls="tabPanel_1">탭메뉴명</button>
+                    <button type="button" class="tab" role="tab" aria-controls="tabPanel_2">탭메뉴명긴케이스</button>
+                    <button type="button" class="tab" role="tab" aria-controls="tabPanel_3">탭메뉴명</button>
+                </div>
+                <div class="tabPanel on" id="tabPanel_1" role="tabpanel">
+                    <h2 class="hidden">1. 헬스케어 뉴스</h2>
+                    <div class="section">
+                        <h3 class="title">1. 헬스케어 뉴스</h3>
+                        <div class="swiper-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다. 출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다.출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다.출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabPanel" id="tabPanel_2" role="tabpanel">
+                    <h2 class="hidden">2. 헬스케어 뉴스</h2>
+                    <div class="section">
+                        <h3 class="title">2. 헬스케어 뉴스</h3>
+                        <div class="swiper-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다. 출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다.출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다.출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabPanel" id="tabPanel_3" role="tabpanel">
+                    <h2 class="hidden">3. 헬스케어 뉴스</h2>
+                    <div class="section">
+                        <h3 class="title">3. 헬스케어 뉴스</h3>
+                        <div class="swiper-container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다. 출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다.출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                    <div class="swiper-slide"><a href="#">
+                                        <p class="img">
+                                            <img src="/front/app/img/etc/ohealth_news.png" alt="인공지능(AI) 기술 소개">
+                                        </p>
+                                        <div class="textWrap">
+                                            <p class="title">인공지능(AI) 기술 소개</p>
+                                            <p class="text">
+                                                구글이 의료 전문 LLM(대규모 언어 모델)을 공개하는 등 헬스케어 분야의 인공지능(AI) 기술을 대거 소개했다.출처 : AI타임스(https://www.aitimes.com)
+                                            </p>
+                                        </div>
+                                    </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonWrap">
+                    <button class="more" type="button" aria-label="더보기">더보기</button>
+                </div>
+            </div>
+            <div class="btmMenu">
+                <div class="innerWrap">
+                    <div class="menuList">
+                        <button type="button" class="home">
+                            <span class="hidden">홈</span>
+                            <i class="icon home"></i>
+                            <span class="text">홈</span>
+                        </button>
+                        <button type="button" class="health">
+                            <span class="hidden">마이헬스</span>
+                            <i class="icon health"></i>
+                            <span class="text">마이헬스</span>
+                        </button>
+                        <button type="button" class="plus">
+                            <span class="hidden">더보기</span>
+                            <i class="icon plus"></i>
+                        </button>
+                        <button type="button" class="program">
+                            <span class="hidden">프로그램</span>
+                            <i class="icon program"></i>
+                            <span class="text">프로그램</span>
+                        </button>
+                        <button type="button" class="benefit">
+                            <span class="hidden">마이혜택</span>
+                            <i class="icon benefit"></i>
+                            <span class="text">마이혜택</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
